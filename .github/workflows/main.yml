@@ -29,4 +29,4 @@ jobs:
                git config --global user.name 'Marcelo Urban'
                git config --global user.email 'mvurban@mvurban.eti.br'
                git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{github.repository}}
-               npm run main
+               npm run deploy
