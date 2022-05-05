@@ -21,6 +21,7 @@ function App() {
             <div>
                <div className='container-left'>
                   <img src={clock} alt='clock time' />
+                  <h2>É sempre hora de aprender</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, nulla assumenda. Consectetur labore facilis reprehenderit inventore incidunt aspernatur dolores doloremque velit nam nemo, fuga, sapiente magni excepturi, saepe ut. Autem?</p>
                </div>               
             </div>
