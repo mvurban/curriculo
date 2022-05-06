@@ -1,0 +1,10 @@
+.images-container{
+   display: flex;   
+   position: absolute;
+   width: 100%;
+
+   >img{
+      align-self: center;
+   }
+   
+}
