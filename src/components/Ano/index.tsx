@@ -16,44 +16,42 @@ export function Ano({year, start, height} : IAno) {
       // clean up code
       window.removeEventListener('scroll', onScroll);
       window.addEventListener('scroll', onScroll, { passive: true });
-      return () => window.removeEventListener('scroll', onScroll);
-   }, []);
 
+      function coloraseLineSeparator(pageScrollY : number) {
 
-   function coloraseLineSeparator(pageScrollY : number) {
-
-      console.log(pageScrollY);
-      
-
-      const lineColor = document.getElementById(`lineColor${year}`);
-      const ano = document.getElementById(year);
-      
-      const paintFrom = start
-      const paintTo = start + height ;
-      
-      if (lineColor && ano){
-
+         //console.log(pageScrollY);         
+   
+         const lineColor = document.getElementById(`lineColor${year}`);
+         const ano = document.getElementById(year);         
+         const paintFrom = start
+         const paintTo = start + height ;
          
-         if(pageScrollY < paintFrom){
-            lineColor.style.height = '0px'
-         }
-
-         if(pageScrollY >= paintTo){
-            lineColor.style.height = `${paintTo-paintFrom}px`
-         }
-
-         if((pageScrollY > paintFrom && pageScrollY <= paintTo) )
-         {    
-            lineColor.style.height = `${pageScrollY - paintFrom}px`;
-            ano.classList.add('on');
-         }
-         else{
-            //line.style.height = `0px`;
-            ano?.classList.remove('on');
-         }
-      }     
+         if (lineColor && ano){   
+            
+            if(pageScrollY < paintFrom){
+               lineColor.style.height = '0px'
+            }   
+            if(pageScrollY >= paintTo){
+               lineColor.style.height = `${paintTo-paintFrom}px`
+            }
+   
+            if((pageScrollY > paintFrom && pageScrollY <= paintTo) )
+            {    
+               lineColor.style.height = `${pageScrollY - paintFrom}px`;
+               ano.classList.add('on');
+            }
+            else{
+               //line.style.height = `0px`;
+               ano?.classList.remove('on');
+            }
+         }              
+      }
       
-   }
+      return () => window.removeEventListener('scroll', onScroll);      
+   }, [year, start, height]);
+
+
+   
 
 
 
