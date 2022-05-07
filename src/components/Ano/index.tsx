@@ -51,10 +51,6 @@ export function Ano({year, start, height} : IAno) {
    }, [year, start, height]);
 
 
-   
-
-
-
    return (
       <>
          <h1 id={year} className='ano'>{year}</h1>
