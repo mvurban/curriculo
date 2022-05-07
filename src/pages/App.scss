@@ -63,16 +63,19 @@ main{
       flex-direction: column;
       //border: 1px solid #FECD19;
       
+      img{
+         align-self: center;
+         margin-bottom: 8vh;
+         max-width: 15vw;
+         max-height: 25vh;
+      }
+
    }
 
    >div:nth-child(1) {      
       display: flex;
       align-items:flex-end;                              
       position: relative;
-
-      img{
-         max-width: 10vw;
-      }
    }
 
    >div:nth-child(2) {
@@ -90,19 +93,11 @@ main{
       
       margin-top: 8vh;      
       width: 70%;
-      position: relative;
-      
-
-      img{
-         align-self: center;
-         margin-bottom: 8vh;
-      }
+      position: relative;      
    }
 
    .container-center{
-      margin-top: 20vh;
-
-      
+      margin-top: 20vh;      
    }
 
    .container-right{
