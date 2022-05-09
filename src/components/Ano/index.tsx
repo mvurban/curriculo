@@ -13,14 +13,20 @@ export function Ano({year, start, height} : IAno) {
    useEffect(() => {
 
       const onScroll = () => coloraseLineSeparator(window.pageYOffset);
-      window.scroll({
-         behavior: 'smooth'
-      })
+      
       // clean up code
       window.removeEventListener('scroll', onScroll);
       window.addEventListener('scroll', onScroll, { passive: true });
 
       function coloraseLineSeparator(pageScrollY : number) {
+
+         // const html = document.documentElement
+         // html.animate({
+         //   scrollTop:pageScrollY,
+           
+
+         // })
+         
 
          //console.log(pageScrollY);         
    

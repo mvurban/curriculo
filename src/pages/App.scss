@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-html {
-   scroll-behavior: smooth !important;
- }
-
 a{
    text-decoration: none;
 }
@@ -116,7 +112,9 @@ main{
       position: relative;
    }
 
-   
-
-
+ 
 }
+
+html {
+   scroll-behavior: smooth !important;  
+ }
