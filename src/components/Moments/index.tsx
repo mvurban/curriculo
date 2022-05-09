@@ -23,9 +23,9 @@ export function Moments({title, titleLine2, children, marginToTop} : IMoments) {
                   :
                   ""
          }
-         <p>
+         <div>
             {children}
-         </p>
+         </div>
       </div>
       </>
    );

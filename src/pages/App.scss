@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
+html {
+   scroll-behavior: smooth !important;
+ }
+
 a{
    text-decoration: none;
 }
@@ -69,15 +73,11 @@ main{
    div{
       display: flex;
       flex-direction: column;
-      //border: 1px solid #FECD19;
-      
-      img{
-         align-self: center;
-         margin-bottom: 8vh;
-         max-width: 15vw;
-         max-height: 25vh;
-      }
+      //border: 1px solid #FECD19;      
+   }
 
+   ul{
+      margin-left: 50px;
    }
 
    >div:nth-child(1) {      

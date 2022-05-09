@@ -13,6 +13,9 @@ export function Ano({year, start, height} : IAno) {
    useEffect(() => {
 
       const onScroll = () => coloraseLineSeparator(window.pageYOffset);
+      window.scroll({
+         behavior: 'smooth'
+      })
       // clean up code
       window.removeEventListener('scroll', onScroll);
       window.addEventListener('scroll', onScroll, { passive: true });
@@ -23,8 +26,9 @@ export function Ano({year, start, height} : IAno) {
    
          const lineColor = document.getElementById(`lineColor${year}`);
          const ano = document.getElementById(year);         
-         const paintFrom = start
-         const paintTo = start + height ;
+         const paintFrom = start+50; 
+         const paintTo = start + height +50 ;
+         
          
          if (lineColor && ano){   
             
@@ -37,10 +41,14 @@ export function Ano({year, start, height} : IAno) {
    
             if((pageScrollY > paintFrom && pageScrollY <= paintTo) )
             {    
+               // console.log("pageScrollY", pageScrollY);
+               // console.log("paintFrom",paintFrom);
+               // console.log("paintTo",paintTo);
+               
                lineColor.style.height = `${pageScrollY - paintFrom}px`;
                ano.classList.add('on');
             }
-            else{
+            else if(pageScrollY < paintTo){
                //line.style.height = `0px`;
                ano?.classList.remove('on');
             }
