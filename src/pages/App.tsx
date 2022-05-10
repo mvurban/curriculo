@@ -3,6 +3,7 @@ import '../styles/header-animation.css'
 import clock from '../assets/clock3.png';
 import nuvem from '../assets/nuvem.png';
 import corona from '../assets/corona.png';
+import workathome from '../assets/workathome.png';
 import { Ano } from '../components/Ano';
 import { Moments } from '../components/Moments';
 import { Images } from '../components/Images';
@@ -41,21 +42,31 @@ function App() {
                      Mais do que nunca esse momento é de aprender, toda uma stack nova de desenvolvimento, novamente a programação como foco e não mais a gestão.
                      É um desafio, mas é com prazer que me dedico a essa nova empreitada.
                   </Moments> */}
-                  <Moments title="Mudanças" marginToTop={1200}>
+                  <Moments title="Mudanças" marginToTop={900}>
                      <p>Agora é hora de recomeçar, muito esforço e dedicação são sempre recompensadores, mas abrir mão de certas
                      posições visando a melhora de qualidade de vida é um processo que tem o tempo correto. E esse tempo chegou pra mim.</p>
                      <p>
                         Com mais de 23 anos de trabalho no campus Maracanã da Uerj - Universidade do Estado do Rio de Janeiro,
-                        sendo 10 anos como coordenador de tecnologia na área de Recursos Humanos, realizei a transferência para o campus Nova Friburgo, sem uma equipe,
+                        sendo <strong>10 anos como coordenador de tecnologia na área de Recursos Humanos</strong>, realizei a transferência para o campus Nova Friburgo, sem uma equipe,
                         sem poder de decisão, mas com novas oportunidades.
                      </p>
                   </Moments>
+                  
+                  <Images marginToTop={1500} >
+                     <img src={workathome} alt='Work at Home' />
+                  </Images>
 
-                  <Images marginToTop={2100} >
+                  <Moments title='Trabalho a distância' titleLine2='Reuniões e mais reuniões' marginToTop={1800}>
+                     <p>Muitos projetos estão sendo coordenados e produzidos a distância, reuniões de equipe são frequentes e os resultados estão sendo animadores, 
+                     pois sem o deslocamento e o comprometimento da equipe conseguimos entregar mais em menos tempo.</p>
+                     <p>Foco essencialmente em ajustes e melhorias nos projetos de Avaliação de Estágio Probatório, sistema de Relatórios e outros.</p>
+                  </Moments>
+
+                  <Images marginToTop={2300} >
                      <img src={corona} alt="Corona Vírus"></img>
                   </Images>
                   
-                  <Moments title='Momentos difíceis' marginToTop={2400}>
+                  <Moments title='Momentos difíceis' marginToTop={2600}>
                      <p>A pandemia não dá trégua, todo cuidado é necessário. </p>
                       <p>Muitas notícias ruins, parece que é um movimento sem fim. A cabeça no lugar nessas horas faz toda a diferença. Vamos em frente.</p>
                   </Moments>
@@ -63,11 +74,12 @@ function App() {
             </div>
             <div className='container-center'>
                <Ano year='2023' start={anoStart} height={200} ></Ano>
-               <Ano year='2022' start={anoStart += anoHeight + 400} height={1000} ></Ano>
-               <Ano year='2021' start={anoStart += anoHeight + 1000} height={800} ></Ano>
-               <Ano year='2020' start={anoStart += anoHeight + 800} height={1400} ></Ano>
-               <Ano year='2014 - Nova equipe' start={anoStart += anoHeight + 1400} height={800} ></Ano>
+               <Ano year='2022' start={anoStart += anoHeight + 400} height={800} ></Ano>
+               <Ano year='2021' start={anoStart += anoHeight + 800} height={600} ></Ano>
+               <Ano year='2020' start={anoStart += anoHeight + 600} height={800} ></Ano>
+               <Ano year='2014 - Nova equipe' start={anoStart += anoHeight + 800} height={800} ></Ano>
                <Ano year='2012 - Coordenador' start={anoStart += anoHeight + 800 } height={400} ></Ano>               
+               <Ano year='2005 - TrocaFig' start={anoStart += anoHeight + 400} height={400} ></Ano>
                <Ano year='2001 - Creare' start={anoStart += anoHeight + 400} height={400} ></Ano>
                <Ano year='1999 - Fim Faculdade' start={anoStart += anoHeight + 400} height={400} ></Ano>
                <Ano year='1998  - UERJ' start={anoStart += anoHeight + 400} height={400} ></Ano>
@@ -100,13 +112,7 @@ function App() {
                   (empresa voltado pra educação em programação), são sempre aproveitadas ao máximo. Sempre gravo as aulas e passo semanas aprendendo todos os detalhes.  </p>
                </Moments>
 
-               <Moments title='Trabalho a distância' titleLine2='Reuniões e mais reuniões' marginToTop={1800}>
-                  <p>Muitos projetos estão sendo coordenados e produzidos a distância, reuniões de equipe são frequentes e os resultados estão sendo animadores, 
-                   pois sem o deslocamento e o comprometimento da equipe conseguimos entregar mais com menos tempo.</p>
-                   <p>Foco essencialmente em ajustes e melhorias nos projetos de Avaliação de Estágio Probatório, sistema de Relatórios e outros.</p>
-               </Moments>
-
-               <Moments title='Projetos e Soluções' marginToTop={2400}>
+               <Moments title='Projetos e Soluções' marginToTop={1800}>
                   <p>Agora já estamos com uma equipe de respeito: 6 profissionais do mais algo gabarito, dedicados, comprometidos e competentes.</p>
                   <p>Conseguimos transformar um setor de apoio de informática numa fábrica de soluções, que apesar das dificuldades de planejamento e investimentos, conseguimos 
                      entregar muito valor aos processos de trabalho através da tecnologia.</p>
@@ -128,8 +134,9 @@ function App() {
                   
                </Moments>
                
-               <Moments title='Nova equipe' titleLine2='Novas cobranças' marginToTop={3800}>
-                  <p>Chegou o momento de realmente darmos uma guinada na criação de soluções. <strong>Uma nova equipe está em formação.</strong></p>
+
+               <Moments title='Nova equipe' titleLine2='Novas perspectivas' marginToTop={2800}>
+                  <p>Chegou o momento de realmente darmos uma guinada na criação de soluções em RH. <strong>Uma nova equipe está em formação.</strong></p>
                   
                   <p>No início a equipe era apenas de 2 profissionais, um com 1 ano pra se aposentar e outro com perfil não mais ligado a área de tecnologia. Toda a programação caia 
                   exclusivamente sob minha responsabilidade. Ainda assim conseguimos criar alguns sistemas, todos baseados nas seguintes tecnologias: ASP 3.0, Html, Css, JavaScript
@@ -143,7 +150,7 @@ function App() {
 
                </Moments>
                
-               <Moments title="Uma nova fase... Agora coordenando" marginToTop={5000}>
+               <Moments title="Uma nova fase... Agora coordenando" marginToTop={4000}>
                   <p>
                   Assumo agora na Superintendência de Recursos Humanos da UERJ a <strong>coordenação de uma equipe de tecnologia</strong>. 
                   Espero crescer pessoalmente e profissionalmente com este novo desafio. 
