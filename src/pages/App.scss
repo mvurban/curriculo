@@ -42,7 +42,7 @@ header{
    height: 18rem; 
    width: 100%;
    margin-top: 7vh;
-   background-color: $secundary;
+   background-color: $secondary;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -55,7 +55,7 @@ header{
    }   
 
    h3{
-      color: $text-secundary;
+      color: $text-secondary;
       font-family: 'Raleway', sans-serif;
       font-weight: 400;
       font-size: 1.5rem;

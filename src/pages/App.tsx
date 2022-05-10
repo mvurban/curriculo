@@ -1,14 +1,16 @@
+
 import './App.scss';
 import '../styles/header-animation.css'
 import clock from '../assets/clock3.png';
 import nuvem from '../assets/nuvem.png';
-import corona from '../assets/corona.png';
-import workathome from '../assets/workathome.png';
+// import corona from '../assets/corona.png';
+import workhome from '../assets/workhome.png';
 import equipe from '../assets/equipe.png';
 import produtos from '../assets/produtos.png';
 import { Ano } from '../components/Ano';
 import { Moments } from '../components/Moments';
 import { Images } from '../components/Images';
+
 
 function App() {
 
@@ -55,7 +57,7 @@ function App() {
                   </Moments>
                   
                   <Images marginToTop={1700} >
-                     <img src={workathome} alt='Work at Home' />
+                     <img src={workhome} alt='Work at Home' />
                   </Images>
 
                   <Moments title='Trabalho a distância' titleLine2='Reuniões e mais reuniões' marginToTop={2000}>
