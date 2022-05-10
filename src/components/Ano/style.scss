@@ -1,9 +1,11 @@
+@import '../../styles/colors';
+
 .ano{
-   color: #aaa;
+   color: $line;
    font-family: 'Raleway', sans-serif;
    font-weight: 700;
    font-size: 3rem;
-   text-shadow: #aaa 2px 1px 3px ;
+   text-shadow: $line 2px 1px 3px ;
    font-size: 4rem;
    transition: color 0.5s linear;   
    padding: 12px;   
@@ -19,12 +21,12 @@
 
 .line-separator{
    width: 2px;   
-   background-color: #aaa;
+   background-color: $line;
 }
 .line-separator-colorfull{
    width: 2px;
    position: absolute;
    z-index: 2;
    height: 0;         
-   background-color: #DA3659;
+   background-color: $primary;
 }

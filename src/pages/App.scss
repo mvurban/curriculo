@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import '../styles/colors';
 
 html {
-   // scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
  }
 
 a{
@@ -23,23 +24,15 @@ h2{
    font-family: 'Raleway', sans-serif;
    font-weight: 700;
    font-size: 2.5rem;
-   color: #DA3659;   
+   color: $primary;   
 }
 
-
-h3{
-   color: #E0DAED;
-   font-family: 'Raleway', sans-serif;
-   font-weight: 400;
-   font-size: 1.5rem;
-   padding: 2px;
-}
 
 p{
    font-family: 'Raleway', sans-serif;
    font-weight: 400;
    font-size: 1rem;
-   color: #444;
+   color: $text-primary;
    padding: 1rem 0;
    line-height: 1.6rem;
 }
@@ -49,7 +42,7 @@ header{
    height: 18rem; 
    width: 100%;
    margin-top: 7vh;
-   background-color: #5D3BA2;
+   background-color: $secundary;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -57,9 +50,18 @@ header{
    position: relative;
 
    .user-name{
-      color: #FECD19;
+      color: $highlight;
       padding-bottom: 24px;   
    }   
+
+   h3{
+      color: $text-secundary;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 1.5rem;
+      padding: 2px;
+   }
+   
 }   
 
 
@@ -85,6 +87,15 @@ main{
       line-height: 1rem;
       padding: 5px;
    }
+
+   h3{
+      color: $primary;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 1.5rem;
+      padding: 2px;
+   }
+   
 
    >div:nth-child(1) {      
       display: flex;
