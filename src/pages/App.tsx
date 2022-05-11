@@ -61,12 +61,14 @@ function App() {
                   </Images>
 
                   <Moments title='Trabalho a distância' titleLine2='Reuniões e mais reuniões' marginToTop={2000}>
+                     <h3>Uerj em casa</h3>
                      <p>Muitos projetos estão sendo coordenados e produzidos a distância, reuniões de equipe são frequentes e os resultados estão sendo animadores, 
                      pois sem o deslocamento e o comprometimento da equipe conseguimos entregar mais em menos tempo.</p>
                      <p>Foco essencialmente em ajustes e melhorias nos projetos de Avaliação de Estágio Probatório, sistema de Relatórios e outros.</p>
                   </Moments>
 
-                  <Moments title='Nova equipe' titleLine2='Novas perspectivas' marginToTop={2800}>
+                  <Moments title='Nova equipe' titleLine2='Novas perspectivas' marginToTop={2700}>
+                     <h3>RH da UERJ promete</h3>
                   <p>Chegou o momento de realmente darmos uma guinada na criação de soluções em RH. <strong>Uma nova equipe está em formação.</strong></p>
                   
                   <p>No início a equipe era apenas de 2 profissionais, um com 1 ano pra se aposentar e outro com perfil não mais ligado a área de tecnologia. Toda a programação caia 
@@ -96,7 +98,7 @@ function App() {
                <Ano year='2022' start={anoStart += anoHeight + 400} height={800} ></Ano>
                <Ano year='2021' start={anoStart += anoHeight + 800} height={600} ></Ano>
                <Ano year='2019' start={anoStart += anoHeight + 600} height={800} ></Ano>
-               <Ano year='2014 - Nova equipe' start={anoStart += anoHeight + 800} height={600} ></Ano>
+               <Ano year='2014' start={anoStart += anoHeight + 800} height={600} ></Ano>
                <Ano year='2012 - Coordenador' start={anoStart += anoHeight + 600 } height={400} ></Ano>               
                <Ano year='2005 - TrocaFig' start={anoStart += anoHeight + 400} height={400} ></Ano>
                <Ano year='2001 - Creare' start={anoStart += anoHeight + 400} height={400} ></Ano>
@@ -162,16 +164,54 @@ function App() {
                   que não podem ser recompensados por seus méritos e nem punidos pelo seu baixo profissionalismo. São todos funcionários concursados e estáveis. 
                   <strong> Conduzir a equipe de modo a ter uma produção acima do esperado é algo importante a ser comentado.</strong></p>
 
-
                </Moments>
 
                
+               <Moments title="Dor no coração, fim de uma fase fantástica" marginToTop={2900}>
+                  <h3>Projetos na Creare chegam ao fim.</h3>
+                  <p>
+                  Infelizmente chegou a hora do adeus, fica a gratidão por experiências maravilhosas, por conhecer pessoas brilhantes, verdadeiros amigos, que 
+                  me fizeram com certeza uma pessoa melhor.
+                  </p>
+                  <p>Nos quase <strong>14 anos</strong> de muito trabalho e companheirismo, passamos por muitos projetos e muitas experiências:</p>                        
+
+                  <p>
+                  Accor Brasil 
+                  <strong> | </strong> 
+                  CEL - Centro Educacional da Lagoa
+                  <strong> | </strong> 
+                  Gisplan
+                  <strong> | </strong> 
+                  Globosat
+                  <strong> | </strong> 
+                  Guto Goffi
+                  <strong> | </strong> 
+                  IBM Brasil
+                  <strong> | </strong> 
+                  Liceu Franco Brasileiro
+                  <strong> | </strong> 
+                  Petrobras
+                  <strong> | </strong> 
+                  PUC-Rio
+                  <strong> | </strong> 
+                  Shell
+                  <strong> | </strong> 
+                  Sul América
+                  <strong> | </strong> 
+                  Unilever
+                  </p>
+                  <p>
+                     As tecnologias utilizadas foram em sua maioria: <strong>ASP 3.0, JavaScript, JQuery, CSS, Html, Sql Server.
+                     Nos últimos anos começamos a adoção do .Net e C#</strong>
+                  </p>
+               </Moments>
                               
-               <Images marginToTop={3500}>
+               <Images marginToTop={3700}>
                   <img src={equipe} alt='Equipe'></img>
                </Images>
 
-               <Moments title="Uma nova fase... Agora coordenando" marginToTop={3800}>
+               <Moments title="Uma nova fase... Agora coordenando" marginToTop={4000}>
+                  <h3>Desafios a vista... UERJ</h3>
                   <p>
                   Assumo agora na Superintendência de Recursos Humanos da UERJ a <strong>coordenação de uma equipe de tecnologia</strong>. 
                   Espero crescer pessoalmente e profissionalmente com este novo desafio. 
