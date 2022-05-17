@@ -1,55 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-@import '../styles/colors';
-
-html {
-    scroll-behavior: smooth !important;
- }
-
-a{
-   text-decoration: none;
-}
-a:hover{
-   text-decoration: underline;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+ @import './colors';
 
 
-
-h1{
-   font-family: 'Raleway', sans-serif;
-   font-weight: 700;
-   font-size: 3rem;
-}
-
-h2{
-   font-family: 'Raleway', sans-serif;
-   font-weight: 700;
-   font-size: 2.5rem;
-   color: $primary;   
-}
-
-
-p{
-   font-family: 'Raleway', sans-serif;
-   font-weight: 400;
-   font-size: 1rem;
-   color: $text-primary;
-   padding: 1rem 0;
-   line-height: 1.6rem;
-}
-
-
-header{
+.header{
    height: 18rem; 
    width: 100%;
    margin-top: 7vh;
-   background-color: $secondary;
+   background-color: rgb(81, 103, 165);
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    position: relative;
 
-   .user-name{
+   .username{
       color: $highlight;
       padding-bottom: 24px;   
    }   
@@ -65,7 +29,7 @@ header{
 }   
 
 
-main{
+.main{
    display: grid;
    grid-template-columns: 3fr 1fr 3fr;
    grid-template-rows: 1fr;   
@@ -83,7 +47,7 @@ main{
    }
 
    li{
-      @extend p;
+      @extend p !optional;
       line-height: 1rem;
       padding: 5px;
    }
@@ -105,8 +69,7 @@ main{
 
    >div:nth-child(2) {
       display: flex;
-      align-items: center;    
-      justify-content: center;        
+      align-items: center;          
       text-align: center;
    }
 
@@ -116,24 +79,25 @@ main{
    }
 
 
-   .container-left{      
+   .containerLeft{      
       
       margin-top: 8vh;      
       width: 70%;
       position: relative;      
    }
 
-   .container-center{
+   .containerCenter{
       margin-top: 20vh;      
    }
 
-   .container-right{
+   .containerRight{
       margin-top: 8vh;      
       width: 70%;
       position: relative;
    }
 
-   
-
+   .images{
+      max-width: 50px;
+   }
 
 }

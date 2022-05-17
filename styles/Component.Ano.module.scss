@@ -1,4 +1,4 @@
-@import '../../styles/colors';
+@import './colors';
 
 .ano{
    color: $line;
@@ -11,19 +11,19 @@
    padding: 12px;   
 }
 
-.ano.on {
+.on {
    color: #5D3BA2;
 }
 
-.line-container{
+.lineContainer{
    position: relative;
 }
 
-.line-separator{
+.lineSeparator{
    width: 2px;   
    background-color: $line;
 }
-.line-separator-colorfull{
+.lineSeparatorColorfull{
    width: 2px;
    position: absolute;
    z-index: 2;

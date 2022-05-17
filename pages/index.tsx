@@ -1,36 +1,35 @@
-
-import './App.scss';
-import '../styles/header-animation.css'
-import clock from '../assets/clock3.png';
-import nuvem from '../assets/nuvem.png';
-// import corona from '../assets/corona.png';
-import workhome from '../assets/workhome.png';
-import equipe from '../assets/equipe.png';
-import produtos from '../assets/produtos.png';
+import style from  '../styles/Home.module.scss';
+import styleHeader from  '../styles/HeaderAnimation.module.css'
+import clock from '../public/assets/clock3.png';
+import nuvem from '../public/assets/nuvem.png';
+import workhome from '../public/assets/workhome.png';
+import equipe from '../public/assets/equipe.png';
+import produtos from '../public/assets/produtos.png';
 import { Ano } from '../components/Ano';
 import { Moments } from '../components/Moments';
 import { Images } from '../components/Images';
+import Image from 'next/image'
 
 
-function App() {
+export default function index() {
 
    let anoStart = 100;
    const anoHeight = 100
 
    return (
       <>
-         <header>
-            <h1 className='user-name'>Marcelo Vendas Urban</h1>
+         <header className={style.header}>
+            <h1 className={style.username}>Marcelo Vendas Urban</h1>
             <h3>Evolução de carreira, projetos desafiadores e experiência adiquirida. </h3>
             <h3>Tecnologias e skills desenvolvidas.</h3>
-            <ul className="header-animated">
+            <ul className={styleHeader.headeranimated}>
                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
             </ul>
          </header>
 
-         <main>
+         <main className={style.main}>
             <div>
-               <div className='container-left'>
+               <div className={style.containerLeft}>
 
                   <Images marginToTop={150} >
                      <img src={clock} alt='clock time' />
@@ -93,7 +92,7 @@ function App() {
                   </Moments> */}
                </div>
             </div>
-            <div className='container-center'>
+            <div className={style.containerCenter}>
                <Ano year='2023' start={anoStart} height={200} ></Ano>
                <Ano year='2022' start={anoStart += anoHeight + 400} height={800} ></Ano>
                <Ano year='2021' start={anoStart += anoHeight + 800} height={600} ></Ano>
@@ -109,10 +108,10 @@ function App() {
                <Ano year='1994 - Virgínia Patrick' start={anoStart += anoHeight + 400} height={400} ></Ano>
                <Ano year='1974 - Nascimento' start={anoStart += anoHeight + 400} height={0} ></Ano>
             </div>
-            <div className='container-right'>
+            <div className={style.containerRight}>
 
                <Images marginToTop={0}>
-                  <img src={nuvem} alt='Apontando pra nuvem'></img>
+                  <Image className={style.images} src={nuvem} alt='Apontando pra nuvem'></Image>                   
                </Images>
 
                <Moments title="O futuro é o reflexo do que escolhemos" marginToTop={280}>
@@ -230,4 +229,4 @@ function App() {
    );
 }
 
-export default App;
+

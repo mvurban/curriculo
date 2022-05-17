@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import './style.scss'
+import style from  '../../styles/Component.Ano.module.scss'
 
 interface IAno {
    year : string,
@@ -46,25 +46,27 @@ export function Ano({year, start, height} : IAno) {
                // console.log("paintTo",paintTo);
                
                lineColor.style.height = `${pageScrollY - paintFrom}px`;
-               ano.classList.add('on');
+               ano.style.color = '#5D3BA2';
+               //ano.classList.add('on');
             }
             else if(pageScrollY < paintTo){
                //line.style.height = `0px`;
-               ano?.classList.remove('on');
+               //ano?.classList.remove('on');
+               ano.style.color = '';
             }
          }              
       }
       
-      return () => window.removeEventListener('scroll', onScroll);      
+      return () => window.removeEventListener('scroll', onScroll);    
    }, [year, start, height]);
 
 
    return (
       <>
-         <h1 id={year} className='ano'>{year}</h1>
-         <div className='line-container'>
-            <div className='line-separator' style={{height:height}}></div>
-            <div id={"lineColor" + year} className='line-separator-colorfull'></div>
+         <h1 id={year} className={style.ano }>{year}</h1>
+         <div className={style.lineContainer}>
+            <div className={style.lineSeparator} style={{height:height}}></div>
+            <div id={"lineColor" + year} className={style.lineSeparatorColorfull}></div>
          </div>
       </>
 

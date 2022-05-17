@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import './style.scss';
+import style from  '../../styles/Component.Images.module.scss';
 
 interface IImages{
    children : ReactNode,
@@ -10,7 +10,7 @@ export function Images({children, marginToTop} : IImages) {
 
    return (
       <>      
-      <div className="images-container" style={{marginTop:marginToTop}}>    
+      <div className={style.imagesContainer} style={{marginTop:marginToTop}}>    
          {children}
       </div>
       </>

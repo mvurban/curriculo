@@ -1,11 +1,11 @@
-.images-container{
+.imagesContainer{
    display: flex;   
    position: absolute;
    width: 100%;
 
    >img{
          align-self: center;             
-         max-height: 250px;
+         max-height: 50px;
    }
    
 }
