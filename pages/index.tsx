@@ -110,13 +110,11 @@ export default function index() {
             </div>
             <div className={style.containerRight}>
 
-               
-
                <Images marginToTop={0}>
                   <Image src={nuvem} alt='Apontando pra nuvem'></Image>                      
                </Images>
 
-               <Moments title="O futuro é o reflexo do que escolhemos" marginToTop={280}>
+               <Moments title="O futuro é o reflexo do que escolhemos" marginToTop={350}>
                   <p>A medida que o tempo passa, nossa página progride, enquanto estivermos por aqui, sempre que algo importante no âmbito profissional
                   acontece vamos registrando...</p>
                </Moments>
