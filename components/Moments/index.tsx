@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-//import './style.scss';
+import style from '../../styles/Component.Moments.module.scss';
 
 interface IMoments{
    title? : string,   
@@ -12,7 +12,7 @@ export function Moments({title, titleLine2, children, marginToTop} : IMoments) {
    
    return (
       <>      
-      <div className="moment-container" style={{marginTop:marginToTop}}>    
+      <div className={style.momentContainer} style={{marginTop:marginToTop}}>    
          {
             title && titleLine2 ? 
                <h2>{title} <br></br>{titleLine2}</h2>               

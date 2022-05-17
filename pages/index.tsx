@@ -31,20 +31,16 @@ export default function index() {
             <div>
                <div className={style.containerLeft}>
 
-                  <Images marginToTop={150} >
-                     <img src={clock} alt='clock time' />
+                  <Images marginToTop={200} >
+                     <Image src={clock} alt='clock time' />
                   </Images>
 
-                  <Moments title='É sempre hora de aprender!!' marginToTop={450}>
+                  <Moments title='É sempre hora de aprender!!' marginToTop={600}>
                      <p>
                      A cada nova etapa novas skills vão se juntando na formação. E nesta área de constante mudança, estar por dentro das
                      tecnologias mais recentes é fundamental para a produção de produtos e serviços mais modernos e em menos tempo.
                      </p>
-                  </Moments>
-                  {/* <Moments title="Recomeçando..." marginToTop={900}>
-                     Mais do que nunca esse momento é de aprender, toda uma stack nova de desenvolvimento, novamente a programação como foco e não mais a gestão.
-                     É um desafio, mas é com prazer que me dedico a essa nova empreitada.
-                  </Moments> */}
+                  </Moments>                 
                   <Moments title="Mudanças" marginToTop={1000}>
                      <p>Agora é hora de recomeçar, muito esforço e dedicação são sempre recompensadores, mas abrir mão de certas
                      posições visando a melhora de qualidade de vida é um processo que tem o tempo correto. E esse tempo chegou pra mim.</p>
@@ -55,8 +51,8 @@ export default function index() {
                      </p>
                   </Moments>
                   
-                  <Images marginToTop={1700} >
-                     <img src={workhome} alt='Work at Home' />
+                  <Images marginToTop={1600} >
+                     <Image src={workhome} alt='Work at Home' />
                   </Images>
 
                   <Moments title='Trabalho a distância' titleLine2='Reuniões e mais reuniões' marginToTop={2000}>
@@ -131,8 +127,8 @@ export default function index() {
                   (empresa voltado pra educação em programação), são sempre aproveitadas ao máximo. Sempre gravo as aulas e passo semanas aprendendo todos os detalhes.  </p>
                </Moments>
 
-               <Images marginToTop={1450}>
-                  <img src={produtos} alt='Produtos'></img>
+               <Images marginToTop={1350}>
+                  <Image src={produtos} alt='Produtos'></Image>
                </Images>
 
                <Moments title='Projetos e Soluções' marginToTop={1700}>
@@ -205,8 +201,8 @@ export default function index() {
                   </p>
                </Moments>
                               
-               <Images marginToTop={3700}>
-                  <img src={equipe} alt='Equipe'></img>
+               <Images marginToTop={3600}>
+                  <Image src={equipe} alt='Equipe'></Image>
                </Images>
 
                <Moments title="Uma nova fase... Agora coordenando" marginToTop={4000}>
@@ -217,15 +213,10 @@ export default function index() {
                   Nossa equipe começa com 2 profissionais e muitos projetos pela frente.
                   </p>
                </Moments>
-
-
             </div>
-
          </main>
          <footer></footer>
-
       </>
-
    );
 }
 
