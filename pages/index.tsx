@@ -110,8 +110,10 @@ export default function index() {
             </div>
             <div className={style.containerRight}>
 
+               
+
                <Images marginToTop={0}>
-                  <Image className={style.images} src={nuvem} alt='Apontando pra nuvem'></Image>                   
+                  <Image src={nuvem} alt='Apontando pra nuvem'></Image>                      
                </Images>
 
                <Moments title="O futuro é o reflexo do que escolhemos" marginToTop={280}>
