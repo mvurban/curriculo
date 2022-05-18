@@ -115,7 +115,7 @@ export default function index() {
                   <p>
                   <strong>Javascript</strong> já tenho contato de alguns anos atrás, com jquery e javascript puro. Mas agora com a inserção do <strong>TypeScript</strong>, 
                   e de versões mais atuais, tudo fica mais encaixado e funcional.</p>
-                  <p><strong>ReactJs, Sass, React-Native e Firebase </strong>são as tecnologias que estou dedicando 100% do tempo que tenho disponível, pra treinar e aprimorar. </p>
+                  <p><strong>ReactJs, Sass, Firebase e NextJs </strong>são as tecnologias que estou dedicando 100% do tempo que tenho disponível, pra treinar e aprimorar. </p>
                   <p>Projetos exemplo das semanas de aprendizagem da <a href="https://www.rocketseat.com.br/" rel='noreferrer' target={'_blank'} > RocketSeat </a>  
                   (empresa voltado pra educação em programação), são sempre aproveitadas ao máximo. Sempre gravo as aulas e passo semanas aprendendo todos os detalhes.  </p>
                </Moments>
