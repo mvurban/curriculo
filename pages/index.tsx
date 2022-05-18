@@ -4,7 +4,7 @@ import buildappwithhands from '../public/assets/buildappwithhands.png';
 import robogear from '../public/assets/robogear.png';
 import workhome from '../public/assets/workhome.png';
 import equipe from '../public/assets/equipe.png';
-import produtos from '../public/assets/produtos.png';
+import produtos from '../public/assets/teamboard.png';
 import { Ano } from '../components/Ano';
 import { Moments } from '../components/Moments';
 import { Images } from '../components/Images';
@@ -31,16 +31,18 @@ export default function index() {
             <div>
                <div className={style.containerLeft}>
 
-                  <Images marginToTop={150} >
-                     <Image src={buildappwithhands} alt='Tempo de aprender' />
-                  </Images>
-
-                  <Moments title='É sempre hora de aprender!!' marginToTop={600}>
+                  <Moments title='É sempre hora de aprender!!' marginToTop={100}>
                      <p>
                      A cada nova etapa novas skills vão se juntando na formação. E nesta área de constante mudança, estar por dentro das
                      tecnologias mais recentes é fundamental para a produção de produtos e serviços mais modernos e em menos tempo.
                      </p>
                   </Moments>                 
+
+                  <Images marginToTop={550} >
+                     <Image src={buildappwithhands} alt='Tempo de aprender' />
+                  </Images>
+
+
                   <Moments title="Mudanças" marginToTop={1000}>
                      <p>Agora é hora de recomeçar, muito esforço e dedicação são sempre recompensadores, mas abrir mão de certas
                      posições visando a melhora de qualidade de vida é um processo que tem o tempo correto. E esse tempo chegou pra mim.</p>
@@ -77,15 +79,6 @@ export default function index() {
 
 
                </Moments>
-
-                  {/* <Images marginToTop={2600} >
-                     <img src={corona} alt="Corona Vírus"></img>
-                  </Images>
-                  
-                  <Moments title='Momentos difíceis' marginToTop={2900}>
-                     <p>A pandemia não dá trégua, todo cuidado é necessário. </p>
-                      <p>Muitas notícias ruins, parece que é um movimento sem fim. A cabeça no lugar nessas horas faz toda a diferença. Vamos em frente.</p>
-                  </Moments> */}
                </div>
             </div>
             <div className={style.containerCenter}>
@@ -131,7 +124,7 @@ export default function index() {
                   <Image src={produtos} alt='Produtos'></Image>
                </Images>
 
-               <Moments title='Projetos e Soluções' marginToTop={1700}>
+               <Moments title='Projetos e Soluções' marginToTop={1800}>
                   <h3>Recursos Humanos - Uerj</h3>
                   <p>Com uma equipe de 6 profissionais do mais algo gabarito, dedicados, comprometidos e competentes, conseguimos transformar um setor 
                      de apoio de informática numa fábrica de soluções, que apesar das dificuldades de planejamento e investimentos, conseguimos 
