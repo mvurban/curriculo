@@ -1,8 +1,44 @@
  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
  @import './colors';
 
+<<<<<<< HEAD:styles/Home.module.scss
 
 .header{
+=======
+a{
+   text-decoration: none;
+}
+a:hover{
+   text-decoration: underline;
+}
+
+
+
+h1{
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 3rem;
+}
+
+h2{
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 2.5rem;
+   color: $primary;   
+}
+
+
+p{
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+   font-size: 1rem;
+   color: $text-primary;
+   padding: 1rem 0;
+   line-height: 1.6rem;
+}
+
+
+header{
    height: 18rem; 
    width: 100%;
    margin-top: 7vh;
@@ -103,4 +139,14 @@
       width: 70%;
       position: relative;
    }
+<<<<<<< HEAD:styles/Home.module.scss
 }
+=======
+
+ 
+}
+
+html {
+   scroll-behavior: smooth !important;  
+ }
+>>>>>>> c31c31319b9d0a89fd59e348e73f26ae1e202f31:src/pages/App.scss
