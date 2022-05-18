@@ -19,7 +19,7 @@ export default function index() {
    return (
       <>
          <header className={style.header}>
-            <h1 className={style.username}>Marcelo Vendas Urban</h1>
+            <h1 className={style.username}>Marcelo Vendas Urban2</h1>
             <h3>Evolução de carreira, projetos desafiadores e experiência adiquirida. </h3>
             <h3>Tecnologias e skills desenvolvidas.</h3>
             <ul className={styleHeader.headeranimated}>
