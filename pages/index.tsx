@@ -31,7 +31,7 @@ export default function index() {
             <div>
                <div className={style.containerLeft}>
 
-                  <Moments title='É sempre hora de aprender!!' marginToTop={100}>
+                  <Moments title='É sempre hora de aprender!' marginToTop={100}>
                      <p>
                      A cada nova etapa novas skills vão se juntando na formação. E nesta área de constante mudança, estar por dentro das
                      tecnologias mais recentes é fundamental para a produção de produtos e serviços mais modernos e em menos tempo.
