@@ -1,7 +1,7 @@
 import style from  '../styles/Home.module.scss';
-import styleHeader from  '../styles/HeaderAnimation.module.css'
-import clock from '../public/assets/clock3.png';
-import nuvem from '../public/assets/nuvem.png';
+import styleHeader from  '../styles/HeaderAnimation.module.scss'
+import buildappwithhands from '../public/assets/buildappwithhands.png';
+import robogear from '../public/assets/robogear.png';
 import workhome from '../public/assets/workhome.png';
 import equipe from '../public/assets/equipe.png';
 import produtos from '../public/assets/produtos.png';
@@ -31,8 +31,8 @@ export default function index() {
             <div>
                <div className={style.containerLeft}>
 
-                  <Images marginToTop={200} >
-                     <Image src={clock} alt='clock time' />
+                  <Images marginToTop={150} >
+                     <Image src={buildappwithhands} alt='Tempo de aprender' />
                   </Images>
 
                   <Moments title='É sempre hora de aprender!!' marginToTop={600}>
@@ -107,10 +107,10 @@ export default function index() {
             <div className={style.containerRight}>
 
                <Images marginToTop={0}>
-                  <Image src={nuvem} alt='Apontando pra nuvem'></Image>                      
+                  <Image src={robogear} alt='Imagem do futuro'></Image>                      
                </Images>
 
-               <Moments title="O futuro é o reflexo do que escolhemos" marginToTop={350}>
+               <Moments title="O futuro é o reflexo do que escolhemos" marginToTop={370}>
                   <p>A medida que o tempo passa, nossa página progride, enquanto estivermos por aqui, sempre que algo importante no âmbito profissional
                   acontece vamos registrando...</p>
                </Moments>
