@@ -31,19 +31,19 @@ export default function index() {
             <div>
                <div className={style.containerLeft}>
 
-                  <Moments title='É sempre hora de aprender!' marginToTop={100}>
+                  <Moments title='É sempre hora de aprender!' marginToTop={150}>
                      <p>
                      A cada nova etapa novas skills vão se juntando na formação. E nesta área de constante mudança, estar por dentro das
                      tecnologias mais recentes é fundamental para a produção de produtos e serviços mais modernos e em menos tempo.
                      </p>
                   </Moments>                 
 
-                  <Images marginToTop={550} >
+                  <Images marginToTop={600} >
                      <Image src={buildappwithhands} alt='Tempo de aprender' />
                   </Images>
 
 
-                  <Moments title="Mudanças" marginToTop={1000}>
+                  <Moments title="Mudanças" marginToTop={1200}>
                      <p>Agora é hora de recomeçar, muito esforço e dedicação são sempre recompensadores, mas abrir mão de certas
                      posições visando a melhora de qualidade de vida é um processo que tem o tempo correto. E esse tempo chegou pra mim.</p>
                      <p>
@@ -53,18 +53,18 @@ export default function index() {
                      </p>
                   </Moments>
                   
-                  <Images marginToTop={1600} >
+                  {/* <Images marginToTop={1600} >
                      <Image src={workhome} alt='Work at Home' />
-                  </Images>
+                  </Images> */}
 
-                  <Moments title='Trabalho a distância' titleLine2='Reuniões e mais reuniões' marginToTop={2000}>
+                  <Moments title='Trabalho a distância' titleLine2='Reuniões e mais reuniões' marginToTop={1800}>
                      <h3>Uerj em casa</h3>
                      <p>Muitos projetos estão sendo coordenados e produzidos a distância, reuniões de equipe são frequentes e os resultados estão sendo animadores, 
                      pois sem o deslocamento e o comprometimento da equipe conseguimos entregar mais em menos tempo.</p>
                      <p>Foco essencialmente em ajustes e melhorias nos projetos de Avaliação de Estágio Probatório, sistema de Relatórios e outros.</p>
                   </Moments>
 
-                  <Moments title='Nova equipe' titleLine2='Novas perspectivas' marginToTop={2700}>
+                  <Moments title='Nova equipe' titleLine2='Novas perspectivas' marginToTop={2400}>
                      <h3>RH da UERJ promete</h3>
                   <p>Chegou o momento de realmente darmos uma guinada na criação de soluções em RH. <strong>Uma nova equipe está em formação.</strong></p>
                   
@@ -76,18 +76,36 @@ export default function index() {
 
                   <p>Agora a ideia é termos uma equipe real, com desenvolvedores e projetos bem definidos, que possamos cada vez mais promover a melhoria e a 
                      modernização dos processos de Recursos Humanos da Universidade</p>
+                  </Moments>
+
+                  <Moments title='TrocaFigurinhas.com' marginToTop={3400}>
+                     <h3>Uma comunidade de colecionadores</h3>
+                     <p>Já na versão 3 a comunidade evolui com sua própria energia. Sem problemas técnicos e sempre com alta disponibilidade, o site requer 
+                     poucos ajustes e interferências. Coisas que os próprios coordenadores conseguem dar conta.</p>
+                     <p>
+                        As principais tecnologias envolvidas nessa versão são <strong>C#, ASP.NET Framework, Html, Css, Javascript, Jquery. </strong>
+                        As últimas evoluções, que foram o sistema de rifas e controle de roles de usuários já foram criados <strong>C#, MVC, Razor.</strong>
+                     </p>
+                     <p>
+                        Banco de dados utilizado desde o início foi o <strong>MSSQL Server</strong>, com uso de procedures, funções, índices, backups etc. 
+                     </p>
+                     <p>
+                        Hospedagem do site, configuração de ambiente, instalação de certificado digital, email server, IIS server. Tudo rodando num servidor windows.
+                     </p>
 
 
-               </Moments>
+                  </Moments>
+
+
                </div>
             </div>
             <div className={style.containerCenter}>
                <Ano year='2023' start={anoStart} height={200} ></Ano>
                <Ano year='2022' start={anoStart += anoHeight + 400} height={800} ></Ano>
-               <Ano year='2021' start={anoStart += anoHeight + 800} height={600} ></Ano>
-               <Ano year='2019' start={anoStart += anoHeight + 600} height={800} ></Ano>
-               <Ano year='2014' start={anoStart += anoHeight + 800} height={600} ></Ano>
-               <Ano year='2012 - Coordenador' start={anoStart += anoHeight + 600 } height={400} ></Ano>               
+               <Ano year='2021' start={anoStart += anoHeight + 800} height={1000} ></Ano>
+               <Ano year='2019' start={anoStart += anoHeight + 1000} height={1200} ></Ano>
+               <Ano year='2014' start={anoStart += anoHeight + 1200} height={1000} ></Ano>
+               <Ano year='2012 - Coordenador' start={anoStart += anoHeight + 1000 } height={400} ></Ano>               
                <Ano year='2005 - TrocaFig' start={anoStart += anoHeight + 400} height={400} ></Ano>
                <Ano year='2001 - Creare' start={anoStart += anoHeight + 400} height={400} ></Ano>
                <Ano year='1999 - Fim Faculdade' start={anoStart += anoHeight + 400} height={400} ></Ano>
@@ -109,7 +127,7 @@ export default function index() {
                </Moments>
 
 
-               <Moments title="Novas" titleLine2='Tecnologias' marginToTop={700}>
+               <Moments title="Novas" titleLine2='Tecnologias' marginToTop={900}>
                   <p>O momento atual é de aprendizagem e mudanças. </p>
                   <p>A criação desta página é parte deste processo. Me dedico atualmente a melhorar minhas habilidades na programação de uma nova STACK.</p> 
                   <p>
@@ -120,11 +138,11 @@ export default function index() {
                   (empresa voltado pra educação em programação), são sempre aproveitadas ao máximo. Sempre gravo as aulas e passo semanas aprendendo todos os detalhes.  </p>
                </Moments>
 
-               <Images marginToTop={1350}>
+               <Images marginToTop={1650}>
                   <Image src={produtos} alt='Produtos'></Image>
                </Images>
 
-               <Moments title='Projetos e Soluções' marginToTop={1800}>
+               <Moments title='Projetos e Soluções' marginToTop={2100}>
                   <h3>Recursos Humanos - Uerj</h3>
                   <p>Com uma equipe de 6 profissionais do mais algo gabarito, dedicados, comprometidos e competentes, conseguimos transformar um setor 
                      de apoio de informática numa fábrica de soluções, que apesar das dificuldades de planejamento e investimentos, conseguimos 
@@ -154,8 +172,11 @@ export default function index() {
 
                </Moments>
 
+               <Images marginToTop={3450}>
+                  <Image src={equipe} alt='Equipe'></Image>
+               </Images>
                
-               <Moments title="Dor no coração, fim de uma fase fantástica" marginToTop={2900}>
+               <Moments title="Dor no coração, fim de uma fase fantástica" marginToTop={3900}>
                   <h3>Projetos na Creare chegam ao fim.</h3>
                   <p>
                   Infelizmente chegou a hora do adeus, fica a gratidão por experiências maravilhosas, por conhecer pessoas brilhantes, verdadeiros amigos, que 
@@ -194,11 +215,8 @@ export default function index() {
                   </p>
                </Moments>
                               
-               <Images marginToTop={3600}>
-                  <Image src={equipe} alt='Equipe'></Image>
-               </Images>
 
-               <Moments title="Uma nova fase... Agora coordenando" marginToTop={4000}>
+               <Moments title="Uma nova fase... Agora coordenando" marginToTop={4800}>
                   <h3>Desafios a vista... UERJ</h3>
                   <p>
                   Assumo agora na Superintendência de Recursos Humanos da UERJ a <strong>coordenação de uma equipe de tecnologia</strong>. 
