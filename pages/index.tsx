@@ -2,7 +2,7 @@ import style from  '../styles/Home.module.scss';
 import styleHeader from  '../styles/HeaderAnimation.module.scss'
 import buildappwithhands from '../public/assets/buildappwithhands.png';
 import robogear from '../public/assets/robogear.png';
-import workhome from '../public/assets/workhome.png';
+//import workhome from '../public/assets/workhome.png';
 import equipe from '../public/assets/equipe.png';
 import produtos from '../public/assets/teamboard.png';
 import { Ano } from '../components/Ano';
