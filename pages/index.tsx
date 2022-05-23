@@ -28,7 +28,6 @@ export default function index() {
             </div>
             <div className={style.containerRight}>
                <Right></Right>
-
             </div>
          </main>
          <footer></footer>

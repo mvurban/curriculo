@@ -15,11 +15,17 @@ export function Right() {
          <Moments title="O futuro é o reflexo do que escolhemos" marginToTop={370}>
             <p>A medida que o tempo passa, nossa página progride, enquanto estivermos por aqui, sempre que algo importante no âmbito profissional
                acontece vamos registrando.</p>
-            <p><strong>Atualmente trabalhando na UERJ e no projeto TrocaFigurinhas.com  </strong></p>
+            <p><strong>Atualmente trabalhando nas seguinte empresas / projetos:</strong></p>
+            <ul>
+               <li>UERJ - Universidade do Estado do Rio de Janeiro</li>
+               <li>TrocaFigurinhas.com - Comunidade de Troca de Figurinhas (Pessoal)</li>
+               <li>Curriculo - Linha do tempo de evolução profissional (Pessoal)</li>
+               <li>FatPig - Produto para acompanhamento de resultados financeiros e investimento (Pessoal)</li>
+            </ul>
          </Moments>
 
 
-         <Moments title="Novas" titleLine2='Tecnologias' marginToTop={900}>
+         <Moments title="Novas" titleLine2='Tecnologias' marginToTop={1100}>
             <p>O momento atual é de aprendizagem e mudanças. </p>
             <p>A criação desta página é parte deste processo. Me dedico atualmente a melhorar minhas habilidades na programação de uma nova STACK.</p>
             <p>
@@ -30,11 +36,11 @@ export function Right() {
                (empresa voltado pra educação em programação), são sempre aproveitadas ao máximo. Sempre gravo as aulas e passo semanas aprendendo todos os detalhes.  </p>
          </Moments>
 
-         <Images marginToTop={1650}>
+         <Images marginToTop={1900}>
             <Image src={produtos} alt='Produtos'></Image>
          </Images>
 
-         <Moments title='Projetos e Soluções' marginToTop={2100}>
+         <Moments title='Projetos e Soluções' marginToTop={2300}>
             <h3>Recursos Humanos - Uerj</h3>
             <p>Com uma equipe de 6 profissionais do mais algo gabarito, dedicados, comprometidos e competentes, conseguimos transformar um setor
                de apoio de informática numa fábrica de soluções, que apesar das dificuldades de planejamento e investimentos, conseguimos
@@ -109,9 +115,7 @@ export function Right() {
                   Nos últimos anos começamos a adoção do .Net e C#</strong>
             </p>
          </Moments>
-
-
-         <Moments title="Uma nova fase... Agora coordenando" marginToTop={4600}>
+         <Moments title="Uma nova fase... Agora coordenando" marginToTop={4650}>
             <h3>Desafios a vista... UERJ</h3>
             <p>
                Assumo agora na Superintendência de Recursos Humanos da UERJ a <strong>coordenação de uma equipe de tecnologia</strong>.
@@ -119,6 +123,35 @@ export function Right() {
                Nossa equipe começa com 2 profissionais e muitos projetos pela frente.
             </p>
          </Moments>
+
+
+         <Moments title="Creare" titleLine2='Computação, Ciência e Arte' marginToTop={5600}>
+            <p>
+               Começa uma fase onde o crescimento profissional será absurdo, com profissionais e pessoas que contribuíram pro meu crescimento, talvez tenha
+               sido minha melhor escola de vida. 
+            </p>
+            <p>
+               Tive exemplos de liderança e amizade, de companheirismo e união.
+            </p>
+            <p>
+               Eu já trabalhava na UERJ e precisava melhorar minha renda mensal, então passei a estudar ASP e banco de dados sozinho, nas minhas horas vagas. 
+               Ao mesmo tempo procurava um local que aceitasse meio espediente. Tive sorte.
+            </p>
+            <p>
+               Minha rotina passou a ser acordar as 5:30, ir pra UERJ e começar a trabalhar as 7:00 até as 14:00. Saia correndo pra chegar na Creare e trabalhar 
+               até as 20:00. Chegando em casa as 22:00. Essa era a rotina por 14 anos. Dureza, mas valeu muito a pena.
+            </p>
+         </Moments>
+         <Moments title="UERJ" titleLine2='Concurso público - aprovado.' marginToTop={6600}>
+            <p>
+               Fui chamado para integrar o quadro de funcionários públicos concursados da UERJ - Universidade do Estado do Rio de Janeiro. Uma honra.
+            </p>
+            <p>
+               Este momento foi especial, fiquei especialmente feliz por esta conquista e ainda mais pelo momento. Meu atual emprego era algo que me fazia mal.
+            </p>
+         </Moments>
+
+
       </>
    );
 }
