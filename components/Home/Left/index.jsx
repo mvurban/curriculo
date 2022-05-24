@@ -1,12 +1,13 @@
-import { Moments } from "../Moments"
-import { Images } from "../Images"
+import { Moments } from "../../Moments"
+import { Images } from "../../Images"
 import Image from 'next/image'
-import buildappwithhands from '../../public/assets/buildappwithhands.png'
-import tf from '../../public/assets/trocafigurinhas.png'
+import buildappwithhands from '../../../public/assets/buildappwithhands.png'
+import tf from '../../../public/assets/trocafigurinhas.png'
+import style from './left.module.scss'
 
 export function Left() {
    return(
-      <>
+      <div className={style.container}>
          <Moments title='É sempre hora de aprender!' marginToTop={150}>
             <p>
                A cada nova etapa novas skills vão se juntando na formação. E nesta área de constante mudança, estar por dentro das
@@ -121,7 +122,7 @@ export function Left() {
                Após longos 4 anos de estudos, dedicação e amizades enfim, formado.
             </p>
          </Moments>
-         <Moments title="Miller" titleLine2="Assistência Médica" marginToTop={7100}>
+         <Moments title="Miller" titleLine2="Assistência Médica" marginToTop={7000}>
             <h3></h3>
             <p>
                Meu primeiro emprego. Aqui aprendi muitas coisas, acho que a principal delas foi como não ser um gestor.
@@ -133,9 +134,8 @@ export function Left() {
             <p>
                Principais tecnologias eram <strong>Clipper, dBase</strong>. Posteriormente usamos <strong>Power Builder e SQL Sybase</strong>
             </p>
-
          </Moments>
 
-      </>
+      </div>
    )
 }

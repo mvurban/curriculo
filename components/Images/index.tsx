@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import style from '../../styles/Component.Images.module.scss';
+import style from './images.module.scss';
 
 interface IImages {
    children: ReactNode,

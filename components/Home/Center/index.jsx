@@ -1,4 +1,5 @@
-import {Ano} from '../Ano'
+import {Ano} from '../../Ano';
+import style from './center.module.scss';
 
 export function Center(){
 
@@ -11,7 +12,7 @@ export function Center(){
    }
 
    return(
-      <>
+      <div className={style.container}>
          <Ano year='2023' start={anoStart} height={200} ></Ano>
          <Ano year='2022' start={getStart(200)} height={800} ></Ano>
          <Ano year='2021' start={getStart(800)} height={1000} ></Ano>
@@ -39,6 +40,6 @@ export function Center(){
          {/* Virginia Patrick */}
          <Ano year='1994' start={getStart(400)} height={1400} ></Ano>         
          <Ano year='Fim' start={getStart(1400)} height={600} ></Ano>         
-      </> 
+      </div> 
    );
 }

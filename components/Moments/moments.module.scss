@@ -1,0 +1,51 @@
+@import '../../styles/colors.scss';
+
+.momentContainer{
+   display: flex;   
+   position: absolute;
+   width: 100%;
+
+   h2{
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 2.5rem;
+      color: $primary;    
+   }
+
+   >div ul{
+      margin-left: 50px;      
+   }
+
+   >div li{
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      color: $text-primary; 
+      line-height: 1.5rem;
+      padding: 5px;
+   }
+
+   p{
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      color: $text-primary; 
+      padding: 1rem 0;
+      line-height: 1.6rem;
+   }
+
+   h1{
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 3rem;
+   }
+
+   h3{
+      color: $primary;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 1.5rem;
+      padding: 2px;
+   }
+
+}

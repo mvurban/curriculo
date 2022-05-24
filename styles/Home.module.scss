@@ -6,47 +6,17 @@
    width: 100%;
    margin-top: 7vh;
    background-color: $secondary;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   position: relative;
-
-   .username{
-      color: $highlight;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 700;
-      font-size: 3rem;      
-      padding-bottom: 24px;         
-   }   
-
-   h3{
-      color: $text-secondary;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 400;
-      font-size: 1.5rem;
-      padding: 2px;
-   }
-   
+   position: relative; 
 }   
 
 
 .main{
    display: grid;
-   grid-template-columns: 3fr 1fr 3fr;
+   grid-template-columns: 5fr 2fr 5fr;
    grid-template-areas: "l c r";
    grid-template-rows: 1fr;   
-   margin: 5vh 0;
-   height: 5000px;
-
-   p{
-      font-family: 'Raleway', sans-serif;
-      font-weight: 400;
-      font-size: 1rem;
-      color: $text-primary; 
-      padding: 1rem 0;
-      line-height: 1.6rem;
-   }
+   margin: 5vh 0;   
+   justify-content: center;
 
    div{
       display: flex;
@@ -54,44 +24,11 @@
       //border: 1px solid #FECD19;      
    }
 
-   h1{
-      font-family: 'Raleway', sans-serif;
-      font-weight: 700;
-      font-size: 3rem;
-   }
-
-   h3{
-      color: $primary;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 400;
-      font-size: 1.5rem;
-      padding: 2px;
-   }
-   
-
-   >div:nth-child(1) {      
-      display: flex;
-      align-items:flex-end;                              
-      position: relative;
-   }
-
-   >div:nth-child(2) {
-      display: flex;
-      align-items: center;          
-      text-align: center;
-   }
-
-   >div:nth-child(3) {      
-      align-items: flex-start;  
-      padding-left: 2vw;    
-   }
-
-
    .containerLeft{            
-      margin-top: 8vh;      
-      width: 70%;
-      position: relative;      
+      margin-top: 8vh;            
       grid-area: l;
+      align-items: flex-end;      
+      width: 100%;
    }
 
    .containerCenter{
@@ -100,9 +37,8 @@
    }
 
    .containerRight{
-      margin-top: 8vh;      
-      width: 70%;
-      position: relative;
+      margin-top: 8vh;            
       grid-area: r;
+      align-items: flex-start;     
    }
 }

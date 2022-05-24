@@ -1,13 +1,14 @@
-import { Images } from "../Images";
+import { Images } from "../../Images";
 import Image from "next/image";
-import { Moments } from "../Moments";
-import robogear from '../../public/assets/robogear.png'
-import produtos from '../../public/assets/produtos.png'
-import equipe from '../../public/assets/equipe.png'
+import { Moments } from "../../Moments";
+import robogear from '../../../public/assets/robogear.png'
+import produtos from '../../../public/assets/produtos.png'
+import equipe from '../../../public/assets/equipe.png'
+import style from './right.module.scss'
 
 export function Right() {
    return (
-      <>
+      <div className={style.container}>
          <Images marginToTop={0}>
             <Image src={robogear} alt='Imagem do futuro'></Image>
          </Images>
@@ -151,7 +152,6 @@ export function Right() {
             </p>
          </Moments>
 
-
-      </>
+      </div>
    );
 }

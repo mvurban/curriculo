@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import style from '../../styles/Component.Moments.module.scss';
+import style from './moments.module.scss';
 
 interface IMoments {
    title?: string,
