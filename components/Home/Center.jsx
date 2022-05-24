@@ -39,6 +39,6 @@ export function Center(){
          {/* Virginia Patrick */}
          <Ano year='1994' start={getStart(400)} height={1400} ></Ano>         
          <Ano year='Fim' start={getStart(1400)} height={600} ></Ano>         
-      </>
+      </> 
    );
 }
