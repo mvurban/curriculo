@@ -1,31 +1,31 @@
 import { ReactNode } from "react";
 import style from '../../styles/Component.Moments.module.scss';
 
-interface IMoments{
-   title? : string,   
-   titleLine2? : string,      
-   children : ReactNode,
-   marginToTop? : number
+interface IMoments {
+   title?: string,
+   titleLine2?: string,
+   children: ReactNode,
+   marginToTop?: number
 }
 
-export function Moments({title, titleLine2, children, marginToTop} : IMoments) {
-   
-   return (
-      <>      
-      <div className={style.momentContainer} style={{marginTop:marginToTop}}>    
-         {
-            title && titleLine2 ? 
-               <h2>{title} <br></br>{titleLine2}</h2>               
+export function Moments({ title, titleLine2, children, marginToTop }: IMoments) {
 
-               : title && !titleLine2 ? 
-                  <h2>{title}</h2>
-                  :
-                  ""                        
-         }
-         <div>
-            {children}
+   return (
+      <>
+         <div className={style.momentContainer} style={{ marginTop: marginToTop }}>
+            {
+               title && titleLine2 ?
+                  <h2>{title} <br></br>{titleLine2}</h2>
+
+                  : title && !titleLine2 ?
+                     <h2>{title}</h2>
+                     :
+                     ""
+            }
+            <div>
+               {children}
+            </div>
          </div>
-      </div>
       </>
    );
 }
