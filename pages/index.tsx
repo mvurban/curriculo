@@ -1,5 +1,4 @@
-import style from '../styles/Home.module.scss';
-
+import style from './index.module.scss';
 import { Left } from '../components/Home/Left';
 import { Center } from '../components/Home/Center';
 import { Right } from '../components/Home/Right';

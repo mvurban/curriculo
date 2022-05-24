@@ -1,5 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
- @import './colors';
+  @import '../styles/colors.scss';
 
 .header{
    height: 18rem; 
@@ -21,7 +20,6 @@
    div{
       display: flex;
       flex-direction: column;
-      //border: 1px solid #FECD19;      
    }
 
    .containerLeft{            
