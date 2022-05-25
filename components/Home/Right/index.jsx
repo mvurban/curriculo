@@ -5,6 +5,7 @@ import robogear from '../../../public/assets/robogear.png'
 import produtos from '../../../public/assets/produtos.png'
 import equipe from '../../../public/assets/equipe.png'
 import style from './right.module.scss'
+import uerj from '../../../public/assets/uerj.png'
 
 export function Right() {
    return (
@@ -116,7 +117,7 @@ export function Right() {
                   Nos últimos anos começamos a adoção do .Net e C#</strong>
             </p>
          </Moments>
-         <Moments title="Uma nova fase... Agora coordenando" marginToTop={4650}>
+         <Moments title="Uma nova fase... Agora coordenando" marginToTop={4700}>
             <h3>Desafios a vista... UERJ</h3>
             <p>
                Assumo agora na Superintendência de Recursos Humanos da UERJ a <strong>coordenação de uma equipe de tecnologia</strong>.
@@ -126,7 +127,7 @@ export function Right() {
          </Moments>
 
 
-         <Moments title="Creare" titleLine2='Computação, Ciência e Arte' marginToTop={5600}>
+         <Moments title="Creare" titleLine2='Computação, Ciência e Arte' marginToTop={5500}>
             <p>
                Começa uma fase onde o crescimento profissional será absurdo, com profissionais e pessoas que contribuíram pro meu crescimento, talvez tenha
                sido minha melhor escola de vida. 
@@ -143,12 +144,39 @@ export function Right() {
                até as 20:00. Chegando em casa as 22:00. Essa era a rotina por 14 anos. Dureza, mas valeu muito a pena.
             </p>
          </Moments>
-         <Moments title="UERJ" titleLine2='Concurso público - aprovado.' marginToTop={6600}>
+         <Images marginToTop={6300} width={350} height={350}>
+            <Image src={uerj} alt='Uerj - Universidade do Estado do Rio de Janeiro'></Image>
+         </Images>
+         <Moments title="UERJ" titleLine2='Concurso público - aprovado.' marginToTop={6700}>
             <p>
                Fui chamado para integrar o quadro de funcionários públicos concursados da UERJ - Universidade do Estado do Rio de Janeiro. Uma honra.
             </p>
             <p>
                Este momento foi especial, fiquei especialmente feliz por esta conquista e ainda mais pelo momento. Meu atual emprego era algo que me fazia mal.
+            </p>
+         </Moments>
+         <Moments title="Faculdade" marginToTop={7250}>
+            <h3>
+               Inicio de uma nova fase. 
+            </h3>
+            <p>
+               Ao mesmo tempo em que ingressava numa universidade, precisava pagar meus estudos. Trabalhava durante o dia e estudava a noite. 
+            </p>
+            <p>
+               Foi um período de muitas experiências e novidades, amizades, frustrações e crescimento pessoal.
+            </p>
+            <p>
+               Era bom em algorítimos, programação e matemática e mediano em matérias não técnicas.
+            </p>
+         </Moments>
+         <Moments title="Virgínia Patrick" marginToTop={7750}>
+            <h3>
+               Curso técnico 
+            </h3>
+            <p>
+               Foi no curso técnico que me trouxe pro mundo fascinante da tecnologia. Aqui aprendi os primeiros passos da informática, 
+               meu primeiro contato com sistemas operacionais, editores de texto e minhas primeiras linhas de
+               código.
             </p>
          </Moments>
 

@@ -116,13 +116,13 @@ export function Left() {
             </p>
                
          </Moments>
-         <Moments title="Agora formado" titleLine2="Ciência da Computação" marginToTop={6200}>
+         <Moments title="Agora formado" titleLine2="Ciência da Computação" marginToTop={6050}>
             <h3></h3>
             <p>
                Após longos 4 anos de estudos, dedicação e amizades enfim, formado.
             </p>
          </Moments>
-         <Moments title="Miller" titleLine2="Assistência Médica" marginToTop={7000}>
+         <Moments title="Miller" titleLine2="Assistência Médica" marginToTop={7100}>
             <h3></h3>
             <p>
                Meu primeiro emprego. Aqui aprendi muitas coisas, acho que a principal delas foi como não ser um gestor.
@@ -132,7 +132,11 @@ export function Left() {
                Algo simples que podia transcorrer com tranquilidade era transformado em desafio, em métrica e o ambiente era doentio.
             </p>
             <p>
-               Principais tecnologias eram <strong>Clipper, dBase</strong>. Posteriormente usamos <strong>Power Builder e SQL Sybase</strong>
+               Principais tecnologias eram <strong>Clipper e dBase</strong>. Posteriormente usamos <strong>Power Builder e SQL Sybase</strong>
+            </p>
+            <p>
+               Tínhamos apenas uma equipe e eramos responsáveis pela criação de ferramentas para todas as áreas de empresa, desde pagamento, livro de credenciamento,
+               correspondências, carteirinhas, sistema de aprovação de exames e consultas etc.
             </p>
          </Moments>
 

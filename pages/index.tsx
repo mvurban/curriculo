@@ -3,6 +3,7 @@ import { Left } from '../components/Home/Left';
 import { Center } from '../components/Home/Center';
 import { Right } from '../components/Home/Right';
 import { Header } from '../components/Home/Header';
+import { Contact } from '../components/Home/Contact';
 
 export default function index() {
 
@@ -13,17 +14,24 @@ export default function index() {
          </header>
 
          <main className={style.main}>
-            <div className={style.containerLeft}>
+            <section className={style.containerLeft}>
                <Left></Left>
-            </div>
-            <div className={style.containerCenter}>
+            </section>
+            <section className={style.containerCenter}>
                <Center></Center>
-            </div>
-            <div className={style.containerRight}>
+            </section>
+            <section className={style.containerRight}>
                <Right></Right>
-            </div>
+            </section>
          </main>
-         <footer></footer>
+         <footer className={style.footer}>
+            <section>
+               <Contact></Contact>
+            </section>
+            <section>
+               
+            </section>
+         </footer>
       </>
    );
 }
