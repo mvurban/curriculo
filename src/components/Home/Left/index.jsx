@@ -1,8 +1,8 @@
 import { Moments } from "../../Moments"
 import { Images } from "../../Images"
 import Image from 'next/image'
-import buildappwithhands from '../../../public/assets/buildappwithhands.png'
-import tf from '../../../public/assets/trocafigurinhas.png'
+import buildappwithhands from '../../../assets/buildappwithhands.png'
+import tf from '../../../assets/trocafigurinhas.png'
 import style from './left.module.scss'
 
 export function Left() {

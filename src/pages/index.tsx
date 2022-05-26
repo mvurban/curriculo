@@ -28,8 +28,7 @@ export default function index() {
             <section>
                <Footer></Footer>
             </section>
-            <section>
-               
+            <section>               
             </section>
          </footer>
       </>

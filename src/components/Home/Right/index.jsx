@@ -1,11 +1,11 @@
 import { Images } from "../../Images";
 import Image from "next/image";
 import { Moments } from "../../Moments";
-import robogear from '../../../public/assets/robogear.png'
-import produtos from '../../../public/assets/produtos.png'
-import equipe from '../../../public/assets/equipe.png'
+import robogear from '../../../assets/robogear.png'
+import produtos from '../../../assets/produtos.png'
+import equipe from '../../../assets/equipe.png'
 import style from './right.module.scss'
-import uerj from '../../../public/assets/uerj.png'
+import uerj from '../../../assets/uerj.png'
 
 export function Right() {
    return (
