@@ -111,6 +111,12 @@ export function Right() {
                Sul América
                <strong> | </strong>
                Unilever
+               <strong> | </strong>
+               Fetranspor 
+               <strong> | </strong>
+               Fiocruz 
+               <strong> | </strong>
+               Shell
             </p>
             <p>
                As tecnologias utilizadas foram em sua maioria: <strong>ASP 3.0, JavaScript, JQuery, CSS, Html, Sql Server.

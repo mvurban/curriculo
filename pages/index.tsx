@@ -3,7 +3,7 @@ import { Left } from '../components/Home/Left';
 import { Center } from '../components/Home/Center';
 import { Right } from '../components/Home/Right';
 import { Header } from '../components/Home/Header';
-import { Contact } from '../components/Home/Contact';
+import { Footer } from '../components/Home/Footer';
 
 export default function index() {
 
@@ -26,7 +26,7 @@ export default function index() {
          </main>
          <footer className={style.footer}>
             <section>
-               <Contact></Contact>
+               <Footer></Footer>
             </section>
             <section>
                
