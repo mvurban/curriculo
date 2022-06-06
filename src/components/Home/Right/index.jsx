@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Moments } from "../../Moments";
 import robogear from '../../../assets/robogear.png'
 import produtos from '../../../assets/produtos.png'
-import equipe from '../../../assets/equipe.png'
+import creare from '../../../assets/creare.png'
 import style from './right.module.scss'
 import uerj from '../../../assets/uerj.png'
 
@@ -75,8 +75,8 @@ export function Right() {
 
          </Moments>
 
-         <Images marginToTop={3450}>
-            <Image src={equipe} alt='Equipe'></Image>
+         <Images marginToTop={3600}>
+            <Image src={creare} layout="fixed"  alt='creare'></Image>
          </Images>
 
          <Moments title="Dor no coração, fim de uma fase fantástica" marginToTop={3900}>
@@ -150,7 +150,7 @@ export function Right() {
                até as 20:00. Chegando em casa as 22:00. Essa era a rotina por 14 anos. Dureza, mas valeu muito a pena.
             </p>
          </Moments>
-         <Images marginToTop={6300} width={350} height={350}>
+         <Images marginToTop={6300} width={300} height={300}>
             <Image src={uerj} alt='Uerj - Universidade do Estado do Rio de Janeiro'></Image>
          </Images>
          <Moments title="UERJ" titleLine2='Concurso público - aprovado.' marginToTop={6700}>
