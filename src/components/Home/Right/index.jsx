@@ -10,11 +10,11 @@ import uerj from '../../../assets/uerj.png'
 export function Right() {
    return (
       <div className={style.container}>
-         <Images marginToTop={0}>
+         <Images marginTop={0}>
             <Image src={robogear} alt='Imagem do futuro'></Image>
          </Images>
 
-         <Moments title="O futuro é o reflexo do que escolhemos" marginToTop={370}>
+         <Moments title="O futuro é o reflexo do que escolhemos">
             <p>A medida que o tempo passa, nossa página progride, enquanto estivermos por aqui, sempre que algo importante no âmbito profissional
                acontece vamos registrando.</p>
             <p><strong>Atualmente trabalhando nas seguinte empresas / projetos:</strong></p>
@@ -25,9 +25,9 @@ export function Right() {
                <li>FatPig - Produto para acompanhamento de resultados financeiros e investimento (Pessoal)</li>
             </ul>
          </Moments>
+         
 
-
-         <Moments title="Novas" titleLine2='Tecnologias' marginToTop={1100}>
+         <Moments title="Novas" titleLine2='Tecnologias' marginTop={200}>
             <p>O momento atual é de aprendizagem e mudanças. </p>
             <p>A criação desta página é parte deste processo. Me dedico atualmente a melhorar minhas habilidades na programação de uma nova STACK.</p>
             <p>
@@ -38,11 +38,11 @@ export function Right() {
                (empresa voltado pra educação em programação), são sempre aproveitadas ao máximo. Sempre gravo as aulas e passo semanas aprendendo todos os detalhes.  </p>
          </Moments>
 
-         <Images marginToTop={1900}>
+         <Images  marginTop={250}>
             <Image src={produtos} alt='Produtos'></Image>
          </Images>
 
-         <Moments title='Projetos e Soluções' marginToTop={2300}>
+         <Moments title='Projetos e Soluções'>
             <h3>Recursos Humanos - Uerj</h3>
             <p>Com uma equipe de 6 profissionais do mais algo gabarito, dedicados, comprometidos e competentes, conseguimos transformar um setor
                de apoio de informática numa fábrica de soluções, que apesar das dificuldades de planejamento e investimentos, conseguimos
@@ -75,11 +75,11 @@ export function Right() {
 
          </Moments>
 
-         <Images marginToTop={3600}>
+         <Images marginTop={200}>
             <Image src={creare}  alt='creare'></Image>
          </Images>
 
-         <Moments title="Dor no coração, fim de uma fase fantástica" marginToTop={3900}>
+         <Moments title="Dor no coração, fim de uma fase fantástica">
             <h3>Projetos na Creare chegam ao fim.</h3>
             <p>
                Infelizmente chegou a hora do adeus, fica a gratidão por experiências maravilhosas, por conhecer pessoas brilhantes, verdadeiros amigos, que
@@ -123,7 +123,7 @@ export function Right() {
                   Nos últimos anos começamos a adoção do .Net e C#</strong>
             </p>
          </Moments>
-         <Moments title="Uma nova fase... Agora coordenando" marginToTop={4700}>
+         <Moments title="Uma nova fase... Agora coordenando" marginTop={150}>
             <h3>Desafios a vista... UERJ</h3>
             <p>
                Assumo agora na Superintendência de Recursos Humanos da UERJ a <strong>coordenação de uma equipe de tecnologia</strong>.
@@ -133,7 +133,7 @@ export function Right() {
          </Moments>
 
 
-         <Moments title="Creare" titleLine2='Computação, Ciência e Arte' marginToTop={5500}>
+         <Moments title="Creare" titleLine2='Computação, Ciência e Arte' marginTop={550}>
             <p>
                Começa uma fase onde o crescimento profissional será absurdo, com profissionais e pessoas que contribuíram pro meu crescimento, talvez tenha
                sido minha melhor escola de vida. 
@@ -150,10 +150,11 @@ export function Right() {
                até as 20:00. Chegando em casa as 22:00. Essa era a rotina por 14 anos. Dureza, mas valeu muito a pena.
             </p>
          </Moments>
-         <Images marginToTop={6300} width={300} height={300}>
+         <Images marginTop={250} width={200} height={200}>
             <Image src={uerj} alt='Uerj - Universidade do Estado do Rio de Janeiro'></Image>
          </Images>
-         <Moments title="UERJ" titleLine2='Concurso público - aprovado.' marginToTop={6700}>
+         <Moments title="UERJ"  marginTop={20} >
+            <h3>Concurso público - aprovado.</h3>
             <p>
                Fui chamado para integrar o quadro de funcionários públicos concursados da UERJ - Universidade do Estado do Rio de Janeiro. Uma honra.
             </p>
@@ -161,7 +162,7 @@ export function Right() {
                Este momento foi especial, fiquei especialmente feliz por esta conquista e ainda mais pelo momento. Meu atual emprego era algo que me fazia mal.
             </p>
          </Moments>
-         <Moments title="Faculdade" marginToTop={7250}>
+         <Moments title="Faculdade" marginTop={150}>
             <h3>
                Inicio de uma nova fase. 
             </h3>
@@ -175,7 +176,7 @@ export function Right() {
                Era bom em algorítimos, programação e matemática e mediano em matérias não técnicas.
             </p>
          </Moments>
-         <Moments title="Virgínia Patrick" marginToTop={7750}>
+         <Moments title="Virgínia Patrick" marginTop={100}>
             <h3>
                Curso técnico 
             </h3>

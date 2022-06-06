@@ -29,17 +29,17 @@ export function Center(){
          <Ano year='2001' start={getStart(400)} height={400} ></Ano>
 
          {/* Faculdade - Formatura */}
-         <Ano year='1999' start={getStart(400)} height={600} ></Ano>
+         <Ano year='1999' start={getStart(400)} height={400} ></Ano>
 
          {/* Uerj - Início */}
-         <Ano year='1998' start={getStart(600)} height={400} ></Ano>
+         <Ano year='1998' start={getStart(400)} height={400} ></Ano>
 
          {/* Miller e faculdade - Inicio */}
          <Ano year='1995' start={getStart(400)} height={400} ></Ano>
 
          {/* Virginia Patrick */}
-         <Ano year='1994' start={getStart(400)} height={500} ></Ano>         
-         <Ano year='Fim' start={getStart(500)} height={300} ></Ano>         
+         <Ano year='1994' start={getStart(400)} height={400} ></Ano>         
+         <Ano year='Fim' start={getStart(500)} height={50} ></Ano>         
       </div> 
    );
 }

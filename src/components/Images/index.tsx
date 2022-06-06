@@ -12,7 +12,7 @@ export function Images({ children, marginTop, width=400, height=400 }: IImages) 
 
    return (
       <>
-         <div className={style.imagesContainer} style={{ marginTop}}>
+         <div className={style.imagesContainer} style={{ marginTop: marginTop , maxWidth:width, maxHeight:height}}>
             <div>
                {children}
             </div>

@@ -8,14 +8,14 @@ import style from './left.module.scss'
 export function Left() {
    return(
       <div className={style.container}>
-         <Moments title='É sempre hora de aprender!' marginToTop={150}>
+         <Moments title='É sempre hora de aprender!' marginTop={150}>
             <p>
                A cada nova etapa novas skills vão se juntando na formação. E nesta área de constante mudança, estar por dentro das
                tecnologias mais recentes é fundamental para a produção de produtos e serviços mais modernos e em menos tempo.
             </p>
          </Moments>
 
-         <Images>
+         <Images  marginTop={250}>
             <Image src={buildappwithhands} alt='Tempo de aprender' />
          </Images>
 
@@ -30,14 +30,14 @@ export function Left() {
             </p>
          </Moments>
 
-         <Moments title='Trabalho a distância' titleLine2='Reuniões e mais reuniões' marginToTop={1700}>
+         <Moments title='Trabalho a distância' titleLine2='Reuniões e mais reuniões' marginTop={300}>
             <h3>Uerj em casa</h3>
             <p>Muitos projetos estão sendo coordenados e produzidos a distância, reuniões de equipe são frequentes e os resultados estão sendo animadores,
                pois sem o deslocamento e o comprometimento da equipe conseguimos entregar mais em menos tempo.</p>
             <p>Foco essencialmente em ajustes e melhorias nos projetos de Avaliação de Estágio Probatório, sistema de Relatórios e outros.</p>
          </Moments>
 
-         <Moments title='Nova equipe' titleLine2='Novas perspectivas' marginToTop={2300}>
+         <Moments title='Nova equipe' titleLine2='Novas perspectivas' marginTop={200}>
             <h3>RH da UERJ promete</h3>
             <p>Chegou o momento de realmente darmos uma guinada na criação de soluções em RH. <strong>Uma nova equipe está em formação.</strong></p>
 
@@ -53,11 +53,11 @@ export function Left() {
 
          {/* //TODO Trocar a imagem do TF pra mostrar somente o logo */}
 
-         <Images marginToTop={3200}>
+         <Images marginTop={100}>
             <Image src={tf} alt="trocafigurinhas.com"></Image>
          </Images>
 
-         <Moments title='TrocaFigurinhas.com' marginToTop={3500}>
+         <Moments title='TrocaFigurinhas.com' >
             <h3>Uma comunidade de colecionadores</h3>
             <p>Já na versão 3 a comunidade evolui com sua própria energia. Sem problemas técnicos e sempre com alta disponibilidade, o site requer
                poucos ajustes e interferências. Coisas que os próprios coordenadores conseguem dar conta.</p>
@@ -93,7 +93,7 @@ export function Left() {
             </p>
          </Moments>
 
-         <Moments title='Album de figurinhas incompleto?' marginToTop={5000}>
+         <Moments title='Album de figurinhas incompleto?' marginTop={300}>
             <h3>Surgimento do TrocaFigurinhas.com</h3>
             <p>O TrocaFigurinhas.com surgiu de uma necessidade própria e um desejo de praticar programação com um projeto pessoal. </p>
             <p>
@@ -116,13 +116,13 @@ export function Left() {
             </p>
                
          </Moments>
-         <Moments title="Agora formado" titleLine2="Ciência da Computação" marginToTop={6050}>
+         <Moments title="Agora formado" titleLine2="Ciência da Computação" marginTop={200}>
             <h3></h3>
             <p>
                Após longos 4 anos de estudos, dedicação e amizades enfim, formado.
             </p>
          </Moments>
-         <Moments title="Miller" titleLine2="Assistência Médica" marginToTop={7100}>
+         <Moments title="Miller" titleLine2="Assistência Médica" marginTop={800}>
             <h3></h3>
             <p>
                Meu primeiro emprego. Aqui aprendi muitas coisas, acho que a principal delas foi como não ser um gestor.

@@ -3,4 +3,9 @@
    align-items:flex-start;                              
    //position: relative;
    width: 80%;      
+
+   @media (max-width: 1440px)
+   {
+      width: 90%;      
+   }
 }
