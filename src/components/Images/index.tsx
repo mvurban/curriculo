@@ -4,15 +4,13 @@ import style from './images.module.scss';
 interface IImages {
    children: ReactNode,
    marginTop?: number,
-   width?:number,
-   height?:number
 }
 
-export function Images({ children, marginTop, width=400, height=400 }: IImages) {
+export function Images({ children, marginTop }: IImages) {
 
    return (
       <>
-         <div className={style.imagesContainer} style={{ marginTop: marginTop , maxWidth:width, maxHeight:height}}>
+         <div className={style.imagesContainer} style={{ marginTop: marginTop}}>
             <div>
                {children}
             </div>

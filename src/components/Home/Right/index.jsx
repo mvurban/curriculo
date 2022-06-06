@@ -38,7 +38,7 @@ export function Right() {
                (empresa voltado pra educação em programação), são sempre aproveitadas ao máximo. Sempre gravo as aulas e passo semanas aprendendo todos os detalhes.  </p>
          </Moments>
 
-         <Images  marginTop={250}>
+         <Images  marginTop={150}>
             <Image src={produtos} alt='Produtos'></Image>
          </Images>
 
@@ -75,11 +75,11 @@ export function Right() {
 
          </Moments>
 
-         <Images marginTop={200}>
+         <Images marginTop={250}>
             <Image src={creare}  alt='creare'></Image>
          </Images>
 
-         <Moments title="Dor no coração, fim de uma fase fantástica">
+         <Moments title="Fim de uma fase">
             <h3>Projetos na Creare chegam ao fim.</h3>
             <p>
                Infelizmente chegou a hora do adeus, fica a gratidão por experiências maravilhosas, por conhecer pessoas brilhantes, verdadeiros amigos, que
@@ -123,7 +123,7 @@ export function Right() {
                   Nos últimos anos começamos a adoção do .Net e C#</strong>
             </p>
          </Moments>
-         <Moments title="Uma nova fase... Agora coordenando" marginTop={150}>
+         <Moments title="Agora coordenando" marginTop={400}>
             <h3>Desafios a vista... UERJ</h3>
             <p>
                Assumo agora na Superintendência de Recursos Humanos da UERJ a <strong>coordenação de uma equipe de tecnologia</strong>.
@@ -133,7 +133,8 @@ export function Right() {
          </Moments>
 
 
-         <Moments title="Creare" titleLine2='Computação, Ciência e Arte' marginTop={550}>
+         <Moments title="Creare" marginTop={420}>
+            <h3>Computação, Ciência e Arte</h3>
             <p>
                Começa uma fase onde o crescimento profissional será absurdo, com profissionais e pessoas que contribuíram pro meu crescimento, talvez tenha
                sido minha melhor escola de vida. 
@@ -150,7 +151,8 @@ export function Right() {
                até as 20:00. Chegando em casa as 22:00. Essa era a rotina por 14 anos. Dureza, mas valeu muito a pena.
             </p>
          </Moments>
-         <Images marginTop={250} width={200} height={200}>
+         {/* //TODO Diminuir o logo da uerj a imagem mesmo. */}
+         <Images marginTop={100} width={300} height={300}>
             <Image src={uerj} alt='Uerj - Universidade do Estado do Rio de Janeiro'></Image>
          </Images>
          <Moments title="UERJ"  marginTop={20} >
@@ -162,7 +164,7 @@ export function Right() {
                Este momento foi especial, fiquei especialmente feliz por esta conquista e ainda mais pelo momento. Meu atual emprego era algo que me fazia mal.
             </p>
          </Moments>
-         <Moments title="Faculdade" marginTop={150}>
+         <Moments title="Faculdade" marginTop={100}>
             <h3>
                Inicio de uma nova fase. 
             </h3>

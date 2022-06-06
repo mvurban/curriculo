@@ -16,8 +16,8 @@ export function Center(){
          <Ano year='2023' start={anoStart} height={200} ></Ano>
          <Ano year='2022' start={getStart(200)} height={800} ></Ano>
          <Ano year='2021' start={getStart(800)} height={1000} ></Ano>
-         <Ano year='2019' start={getStart(1000)} height={1200} ></Ano>
-         <Ano year='2014' start={getStart(1200)} height={900} ></Ano>
+         <Ano year='2019' start={getStart(1000)} height={1400} ></Ano>
+         <Ano year='2014' start={getStart(1400)} height={900} ></Ano>
 
          {/* Coordenador - UERJ */}
          <Ano year='2012' start={getStart(900) } height={200} ></Ano> 

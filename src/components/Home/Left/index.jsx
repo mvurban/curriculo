@@ -2,7 +2,7 @@ import { Moments } from "../../Moments"
 import { Images } from "../../Images"
 import Image from 'next/image'
 import buildappwithhands from '../../../assets/buildappwithhands.png'
-import tf from '../../../assets/trocafigurinhas.png'
+import tf from '../../../assets/tf.png'
 import style from './left.module.scss'
 
 export function Left() {
@@ -30,8 +30,8 @@ export function Left() {
             </p>
          </Moments>
 
-         <Moments title='Trabalho a distância' titleLine2='Reuniões e mais reuniões' marginTop={300}>
-            <h3>Uerj em casa</h3>
+         <Moments title='Trabalho a distância'  marginTop={200}>
+            <h3>Uerj home office</h3>
             <p>Muitos projetos estão sendo coordenados e produzidos a distância, reuniões de equipe são frequentes e os resultados estão sendo animadores,
                pois sem o deslocamento e o comprometimento da equipe conseguimos entregar mais em menos tempo.</p>
             <p>Foco essencialmente em ajustes e melhorias nos projetos de Avaliação de Estágio Probatório, sistema de Relatórios e outros.</p>
@@ -93,7 +93,7 @@ export function Left() {
             </p>
          </Moments>
 
-         <Moments title='Album de figurinhas incompleto?' marginTop={300}>
+         <Moments title='Album de figurinhas incompleto?' marginTop={350}>
             <h3>Surgimento do TrocaFigurinhas.com</h3>
             <p>O TrocaFigurinhas.com surgiu de uma necessidade própria e um desejo de praticar programação com um projeto pessoal. </p>
             <p>
@@ -122,7 +122,7 @@ export function Left() {
                Após longos 4 anos de estudos, dedicação e amizades enfim, formado.
             </p>
          </Moments>
-         <Moments title="Miller" titleLine2="Assistência Médica" marginTop={800}>
+         <Moments title="Miller" titleLine2="Assistência Médica" marginTop={700}>
             <h3></h3>
             <p>
                Meu primeiro emprego. Aqui aprendi muitas coisas, acho que a principal delas foi como não ser um gestor.
