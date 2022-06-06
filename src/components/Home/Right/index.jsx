@@ -76,7 +76,7 @@ export function Right() {
          </Moments>
 
          <Images marginToTop={3600}>
-            <Image src={creare} layout="fixed"  alt='creare'></Image>
+            <Image src={creare}  alt='creare'></Image>
          </Images>
 
          <Moments title="Dor no coração, fim de uma fase fantástica" marginToTop={3900}>

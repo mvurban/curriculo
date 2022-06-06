@@ -5,14 +5,14 @@ interface IMoments {
    title?: string,
    titleLine2?: string,
    children: ReactNode,
-   marginToTop?: number
+   marginTop?: number
 }
 
-export function Moments({ title, titleLine2, children, marginToTop }: IMoments) {
+export function Moments({ title, titleLine2, children, marginTop }: IMoments) {
 
    return (
       <>
-         <div className={style.momentContainer} style={{ marginTop: marginToTop }}>
+         <div className={style.momentContainer} style={{ marginTop: marginTop }}>
             {
                title && titleLine2 ?
                   <h2>{title} <br></br>{titleLine2}</h2>

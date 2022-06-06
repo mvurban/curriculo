@@ -4,11 +4,16 @@ import { Center } from '../components/Home/Center';
 import { Right } from '../components/Home/Right';
 import { Header } from '../components/Home/Header';
 import { Footer } from '../components/Home/Footer';
+import Head from 'next/head';
 
 export default function index() {
 
    return (
       <>
+         <Head>
+            <meta content="width=device-width, initial-scale=1" name="viewport" />
+         </Head>
+
          <header className={style.header}>
             <Header></Header>
          </header>

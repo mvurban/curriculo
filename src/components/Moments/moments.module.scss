@@ -2,14 +2,26 @@
 
 .momentContainer{
    display: flex;   
-   position: absolute;
+   //position: absolute;
    width: 100%;
+   margin: 5rem;
 
    h2{
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
       font-size: 2.5rem;
-      color: $primary;    
+      color: $primary;  
+      
+      @media (max-width: 1024px)
+      {
+         font-size: 2rem;
+      }
+
+      @media (max-width: 768px)
+      {
+         font-size: 1rem;         
+      }
+
    }
 
    >div ul{
@@ -32,12 +44,32 @@
       color: $text-primary; 
       padding: 1rem 0;
       line-height: 1.6rem;
+
+      @media (max-width: 1024px)
+      {
+         font-size: 0.9rem;
+         line-height: 1.2rem;
+      }
+
+      @media (max-width: 768px)
+      {
+         font-size: 0.8rem;
+         line-height: 1rem;
+      }
+
+
    }
 
    h1{
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
       font-size: 3rem;
+
+      @media (max-width: 768px)
+      {
+         font-size: 2rem;         
+      }
+
    }
 
    h3{
@@ -46,6 +78,17 @@
       font-weight: 400;
       font-size: 1.5rem;
       padding: 2px;
+
+      @media (max-width: 1024px)
+      {
+         font-size: 1.2rem;         
+      }
+
+      @media (max-width: 768px)
+      {
+         font-size: 1rem;
+      }
+
    }
 
 }

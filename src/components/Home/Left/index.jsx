@@ -15,12 +15,12 @@ export function Left() {
             </p>
          </Moments>
 
-         <Images marginToTop={600} >
+         <Images>
             <Image src={buildappwithhands} alt='Tempo de aprender' />
          </Images>
 
 
-         <Moments title="Mudanças" marginToTop={1100}>
+         <Moments title="Mudanças">
             <p>Agora é hora de recomeçar, muito esforço e dedicação são sempre recompensadores, mas abrir mão de certas
                posições visando a melhora de qualidade de vida é um processo que tem o tempo correto. E esse tempo chegou pra mim.</p>
             <p>

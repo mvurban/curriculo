@@ -1,13 +1,25 @@
 .imagesContainer{
    display: flex;   
-   position: absolute;
+   //position: absolute;
    width: 100%;
    align-self: flex-start;
+   margin: 5rem;
    
 
    >div{      
       max-height:400px;
       max-width:400px;      
+
+      @media (max-width: 1024px)
+      {
+         max-height:300px;
+         max-width:300px;      
+      }
+
+      @media (max-width: 768px)
+      {
+         max-height:200px;
+         max-width:200px;      
+      }
    }
-   
 }
