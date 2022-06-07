@@ -5,6 +5,7 @@ import { Right } from '../components/Home/Right';
 import { Header } from '../components/Home/Header';
 import { Footer } from '../components/Home/Footer';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function index() {
 
@@ -13,6 +14,10 @@ export default function index() {
          <Head>
             <meta content="width=device-width, initial-scale=1" name="viewport" />
          </Head>
+
+         <menu>
+            <li><Link href={'./Summary'} >Resumo</Link></li>
+         </menu>
 
          <header className={style.header}>
             <Header></Header>

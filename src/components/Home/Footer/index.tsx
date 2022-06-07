@@ -28,6 +28,9 @@ export function Footer() {
                <Link href={'https://github.com/mvurban'} target={'_blank'}>Git Hub</Link>               
             </p>
             <p>
+               <Link href={'https://www.linkedin.com/in/mvurban/'} target={'_blank'}>Linked-in</Link>                              
+            </p>
+            <p>
                <Link href={'https://mvurban.github.io/React-Treinos/'} target={'_blank'} >Treinos</Link>                              
             </p>            
          </section>
