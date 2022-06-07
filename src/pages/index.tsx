@@ -15,7 +15,7 @@ export default function index() {
             <meta content="width=device-width, initial-scale=1" name="viewport" />
          </Head>
 
-         <menu>
+         <menu className={style.menu}>
             <li><Link href={'./Summary'} >Resumo</Link></li>
          </menu>
 

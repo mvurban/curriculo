@@ -2,10 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import foto from '../../assets/uerj.png'
 import style from './summary.module.scss'
+import back from '../../assets/voltar.png'
 
 export default function Summary() {
    return (
       <>
+         <button>
+            <Link href={'./'}>
+               <Image src={back}></Image>
+            </Link>
+         </button>
          <aside>
             <Image src={foto}></Image>
             <div className={style.profile}>
