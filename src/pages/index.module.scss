@@ -26,8 +26,8 @@
 .main{
    display: grid;
    grid-template-columns: 5fr 2fr 5fr;
-   grid-template-areas: "l c r";
    grid-template-rows: 1fr;   
+   grid-template-areas: "l c r";
    margin: 5vh 15vw;   
    justify-content: center;
    min-width: 400px;
