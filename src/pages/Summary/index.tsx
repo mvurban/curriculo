@@ -1,20 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
-import foto from '../../assets/uerj.png'
+import foto from '../../assets/fotoProfile.jpg'
 import style from './summary.module.scss'
 import back from '../../assets/voltar.png'
 
 export default function Summary() {
    return (
       <>
-         <button>
-            <Link href={'./'}>
-               <Image src={back}></Image>
-            </Link>
-         </button>
-         <aside>
-            <Image src={foto}></Image>
-            <div className={style.profile}>
+         <aside className={style.aside}>            
+            <div className={style.profile}>               
+               <div className={style.fotocontainer}>
+                  <Image src={foto} className={style.foto}></Image>
+               </div>
                <span>Marcelo Vendas Urban</span>
                <span>48 anos</span>
             </div>
@@ -28,6 +25,13 @@ export default function Summary() {
 
             </div>
          </aside>
+         <menu>
+            <button>
+               <Link href={'./'}>
+                  <Image src={back}></Image>
+               </Link>
+            </button>
+         </menu>
          <main>
 
          </main>
