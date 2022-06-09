@@ -1,52 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-import foto from '../../assets/fotoProfile.jpg'
 import style from './summary.module.scss'
 import back from '../../assets/voltar.png'
+import Profile from './profile';
 
 export default function Summary() {
    return (
       <div className={style.main_container}>
-         <aside className={style.profile}>            
-            <div className={style.user_container}>
-               <div className={style.foto_container}>
-                  <Image src={foto} className={style.foto}></Image>
-               </div>
-               <div className={style.username_container}>
-                  <span>Marcelo Vendas Urban</span>
-                  <span>48 anos</span>
-               </div>
-            </div>
-            <div className={style.tech_container}>
-               <ul>
-                  <li>Html</li>
-                  <li>Css</li>
-                  <li>Javascript</li>
-               </ul>
-               <ul>
-                  <li>ReactJs</li>
-                  <li>Scss</li>
-                  <li>Typescript</li>
-                  <li>Next</li>
-               </ul>
-               <ul>
-                  <li>Sql Server</li>
-                  <li>Firebase</li>
-               </ul>
-               <ul>
-                  <li>Photoshop</li>
-                  <li>Figma</li>
-               </ul>
-            </div>
-            <div className={style.contact_container}>
-               <ul>
-                  <li>mvurban2@gmail.com</li>
-                  <li>mvurban@mvurban.eti.br</li>
-                  <li>+55 (21) 98604-5607</li>                  
-               </ul>               
 
-            </div>
-         </aside>
+         <Profile></Profile>
+         
          <menu className={style.menu}>
             <button>
                <Link href={'./'}>
@@ -54,12 +17,153 @@ export default function Summary() {
                </Link>
             </button>
          </menu>
+
          <main className={style.main}>
-               MAIN
+            <p className={style.topic}>Objetivo:</p>
+            <p className={style.topic_description}>
+               Trabalhar em equipe no desenvolvimento front-end, back-end e/ou full-stack de forma totalmente
+               remota e com horário flexível.
+            </p>
+            <p className={style.topic}>Horário disponível:</p>
+            <p className={style.topic_description}>
+               De segunda a sexta das 15:30 às 23:30
+            </p>
+
+
+            <div className={style.experiences}>
+
+               <div>
+                  <div className={style.ano_container}>
+                     <div className={style.ano}>
+                        <span>2022</span>
+                     </div>
+                     <div className={style.line}></div>
+                  </div>
+
+
+                  <div className={style.local_container}>
+                     <div className={style.local}>
+                        <div>
+                           <p className={style.title}>Uerj - Iprj</p>
+                           <p className={style.subtitle}>Campus Nova Friburgo</p>
+                           <p className={style.atividade}>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque, expedita cupiditate earum nam
+                              quas incidunt modi? Molestiae architecto voluptatum unde, commodi, atque necessitatibus
+                              tempore dolorum odio excepturi, expedita optio.
+                           </p>
+                           <p className={style.atividade}>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque, expedita cupiditate earum nam
+                              quas incidunt modi? Molestiae architecto voluptatum unde, commodi, atque necessitatibus
+                              tempore dolorum odio excepturi, expedita optio.
+                           </p>
+                        </div>
+
+
+                        <div className={style.time}>
+                           <p className={style.title}>3 meses</p>
+                           <p className={style.subtitle}>desde 2022</p>
+                        </div>
+
+
+                     </div>
+
+                     <div className={style.bullet} >
+
+                     </div>
+                     <div className={style.local}>
+                        <div>
+                           <p className={style.title}>TrocaFigurinhas.com</p>
+                           <p className={style.subtitle}>Projeto pessoal</p>
+                           <p className={style.atividade}>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque, expedita cupiditate earum nam
+                              quas incidunt modi? Molestiae architecto voluptatum unde, commodi, atque necessitatibus
+                              tempore dolorum odio excepturi, expedita optio.
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque, expedita cupiditate earum nam
+                              quas incidunt modi? Molestiae architecto voluptatum unde, commodi, atque necessitatibus
+                              tempore dolorum odio excepturi, expedita optio.                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque, expedita cupiditate earum nam
+                              quas incidunt modi? Molestiae architecto voluptatum unde, commodi, atque necessitatibus
+                              tempore dolorum odio excepturi, expedita optio.
+                           </p>
+                        </div>
+                        <div className={style.time}>
+                           <p className={style.title}>3 meses</p>
+                           <p className={style.subtitle}>desde 2022</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div>
+                  <div className={style.ano_container}>
+                     <div className={style.ano}>
+                        <span>2022</span>
+                     </div>
+                     <div className={style.line}></div>
+                  </div>
+
+
+                  <div className={style.local_container}>
+                     <div className={style.local}>
+                        <div>
+                           <p className={style.title}>Uerj - Iprj</p>
+                           <p className={style.subtitle}>Campus Nova Friburgo</p>
+                           <p className={style.atividade}>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque, expedita cupiditate earum nam
+                              quas incidunt modi? Molestiae architecto voluptatum unde, commodi, atque necessitatibus
+                              tempore dolorum odio excepturi, expedita optio.
+                           </p>
+                           <p className={style.atividade}>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque, expedita cupiditate earum nam
+                              quas incidunt modi? Molestiae architecto voluptatum unde, commodi, atque necessitatibus
+                              tempore dolorum odio excepturi, expedita optio.
+                           </p>
+                        </div>
+
+
+                        <div className={style.time}>
+                           <p className={style.title}>3 meses</p>
+                           <p className={style.subtitle}>desde 2022</p>
+                        </div>
+
+
+                     </div>
+
+                     <div className={style.bullet} >
+
+                     </div>
+                     <div className={style.local}>
+                        <div>
+                           <p className={style.title}>TrocaFigurinhas.com</p>
+                           <p className={style.subtitle}>Projeto pessoal</p>
+                           <p className={style.atividade}>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque, expedita cupiditate earum nam
+                              quas incidunt modi? Molestiae architecto voluptatum unde, commodi, atque necessitatibus
+                              tempore dolorum odio excepturi, expedita optio.
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque, expedita cupiditate earum nam
+                              quas incidunt modi? Molestiae architecto voluptatum unde, commodi, atque necessitatibus
+                              tempore dolorum odio excepturi, expedita optio.                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque, expedita cupiditate earum nam
+                              quas incidunt modi? Molestiae architecto voluptatum unde, commodi, atque necessitatibus
+                              tempore dolorum odio excepturi, expedita optio.
+                           </p>
+                        </div>
+                        <div className={style.time}>
+                           <p className={style.title}>3 meses</p>
+                           <p className={style.subtitle}>desde 2022</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+
+            </div>
+
          </main>
+
          <aside className={style.time}>
-               TIME
+
          </aside>
+
       </div>
    );
 }
