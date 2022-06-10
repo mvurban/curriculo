@@ -22,6 +22,9 @@ export function Footer() {
          <section>
             <h2>Links relacionados</h2>
             <p>
+               <Link href={'./Summary'} target={'_blank'} >Currículo resumido</Link>               
+            </p>
+            <p>
                <Link href={'https://www.trocafigurinhas.com/'} target={'_blank'} >Troca Figurinhas</Link>               
             </p>
             <p>

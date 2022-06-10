@@ -11,7 +11,7 @@
 
 .main_container{
    display: grid;   
-   grid-template-columns: 300px auto 200px;
+   grid-template-columns: 350px auto 200px;
    grid-template-rows: auto;
    grid-template-areas: "prof main menu" ;
 }
