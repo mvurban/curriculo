@@ -16,20 +16,23 @@ interface IExperience {
 export default function Experience({ ano, title, subTitle, children, sinceTitle, sinceDescription }: IExperience) {
    return (
 
-
-   // TODO: entender melhor como implementar renderização condicional usando next, tá dando erro.
-
-      <div>
+      <div className={ano? style.experience : ''}>
          <div className={style.ano_container}>
             {
-               ano ?                  
-                  <div className={style.ano}>
-                     <span>{ano}</span>
-                  </div>
+               ano ?
+                  <>
+                     <div className={style.ano}>
+                        <span>{ano}</span>
+                     </div>
+                     <div className={style.line}></div>
+                  </>
                   :
-                  <div className={style.bullet}></div>                  
+                  <>
+                     <div className={style.bullet}><div></div></div>
+                     <div className={style.line_bullet}></div>
+                  </>
             }
-            <div className={style.line}></div>
+            
          </div>
 
 
@@ -39,21 +42,19 @@ export default function Experience({ ano, title, subTitle, children, sinceTitle,
                <div>
                   <p className={style.title}>{title}</p>
                   <p className={style.subtitle}>{subTitle}</p>
-                  <p className={style.atividade}>
+                  <div className={style.atividade}>
                      {children}
-                  </p>
+                  </div>
                </div>
-
-
-               <div className={style.time}>
-                  <p className={style.title}>{sinceTitle}</p>
-                  <p className={style.subtitle}>{sinceDescription}</p>
-               </div>
-
 
             </div>
 
          </div>
+         <div className={style.time}>
+            <p className={style.title}>{sinceTitle}</p>
+            <p className={style.subtitle}>{sinceDescription}</p>
+         </div>
+
       </div>
    )
 }
