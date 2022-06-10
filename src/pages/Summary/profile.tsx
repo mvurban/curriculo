@@ -10,7 +10,7 @@ export default function Profile() {
                <Image src={foto} className={style.foto}></Image>
             </div>
             <div className={style.username_container}>
-               <p>Marcelo Vendas Urban <small>48 anos</small></p>                              
+               <p>Marcelo Vendas Urban <small>48 anos</small></p>
                <p>Bacharel em Ciência da Computação em 1999</p>
                <p>Centro Universitário Moacyr Sreder Bastos</p>
             </div>
@@ -41,7 +41,7 @@ export default function Profile() {
                <li>Figma</li>
             </ul>
          </div>
-          <div className={style.contact_container}>
+         <div className={style.contact_container}>
             <ul>
                <li>mvurban2@gmail.com</li>
                <li>mvurban@mvurban.eti.br</li>
