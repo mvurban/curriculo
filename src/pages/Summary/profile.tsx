@@ -16,36 +16,64 @@ export default function Profile() {
             </div>
          </div>
          <div className={style.tech_container}>
-            <ul>
-               <li>Html</li>
-               <li>Css</li>
-               <li>Javascript</li>
-            </ul>
-            <ul>
-               <li>ReactJs</li>
-               <li>Scss</li>
-               <li>Typescript</li>
-               <li>Next</li>
-            </ul>
-            <ul>
-               <li>Git</li>
-               <li>GitHub</li>
-            </ul>
+            <div className={style.teck_container_left}>
 
-            <ul>
-               <li>Sql Server</li>
-               <li>Firebase</li>
-            </ul>
-            <ul>
-               <li>Photoshop</li>
-               <li>Figma</li>
-            </ul>
+               <ul>
+                  <li>ReactJs</li>
+                  <li>Scss</li>
+                  <li>Typescript</li>
+                  <li>Next</li>
+                  <li>C#</li>
+                  <li>ASP.NET</li>
+               </ul>
+               <ul>
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>Javascript</li>
+               </ul>
+               <ul>
+                  <li>AWS</li>
+                  <li>Versel</li>
+               </ul>
+               <ul>
+                  <li>Scrun</li>
+                  <li>Kanban</li>
+               </ul>
+            </div>
+            <div className={style.teck_container_right}>
+               <ul>
+                  <li>MS-Sql Server</li>
+                  <li>MySql</li>
+                  <li>NodeJs
+                     <ul>
+                        <li>Express</li>
+                        <li>Sequelize</li>
+                     </ul>
+                  </li>
+                  <li>APIs Rest</li>
+                  <li>Firebase</li>
+               </ul>
+               <ul>
+                  <li>Photoshop</li>
+                  <li>Figma</li>
+               </ul>
+               <ul>
+                  <li>Git</li>
+                  <li>GitHub</li>
+               </ul>
+               <ul>
+                  <li>CI/CD</li>
+               </ul>
+            </div>
          </div>
          <div className={style.contact_container}>
             <ul>
                <li>mvurban2@gmail.com</li>
                <li>mvurban@mvurban.eti.br</li>
                <li>+55 (21) 98604-5607</li>
+            </ul>
+            <ul>
+               <li>Nova Friburgo - RJ</li>
             </ul>
 
          </div>

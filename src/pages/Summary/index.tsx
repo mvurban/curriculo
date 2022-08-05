@@ -29,14 +29,14 @@ export default function Summary() {
 
             <div className={style.experiences}>
 
-               <Experience ano={2022} title='Uerj - Universidade do Estado do Rio de Janeiro' subTitle='Iprj - Campus Nova Friburgo' sinceTitle='3 meses' sinceDescription='até hoje'>
+               <Experience ano={2022} title='Uerj - Universidade do Estado do Rio de Janeiro' subTitle='Iprj - Campus Nova Friburgo' sinceTitle='6 meses' sinceDescription='até hoje'>
                   <p>
                      Estudos voltados para o desenvolvimento de habilidades em novas stacks. 
                   </p>
                   <p>
-                     <strong>Função:</strong> Desenvolvedor de software Web - FrontEnd.
+                     <strong>Função:</strong> Desenvolvedor de software Web - FullStack.
                      <br></br>
-                     <strong>Tecnologias utilizadas:</strong> ReactJs, NextJs, Typescript, Scss, Firebase, Figma. 
+                     <strong>Tecnologias utilizadas:</strong> ReactJs, NextJs, Typescript, Scss, Firebase, Figma, MySql, AWS, Node.js, Sequelize, Migration. 
                   </p>
                </Experience>
 
